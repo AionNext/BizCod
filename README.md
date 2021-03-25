@@ -26,11 +26,13 @@ As mentioned previously, the data properties are typed to represent different ty
 
 | type                           | Description   |
 |--------------------------------|------------------------------------------------------------------------|
-| text                    | Top level Main frame UI class                                          | 
-| number                     | Top level Main frame UI class                                          | 
-| decimal                     | Top level Main frame UI class                                          | 
-| date                     | Top level Main frame UI class                                          | 
-| logical                     | Top level Main frame UI class                                          | 
+| text                    | textual data to store the text such as 'John Roberts' 'commercial account' and so on                                          | 
+| number                     | number to store numbers such as 100, 3000. The number can be either positive or negative                                        | 
+| decimal                     | decimal data that are desiged to store decimal numbers such as 213213.45 , -24324.67                                          | 
+| date                     | to store then date                                      | 
+| logical                     | logical type that can be either true or false                                        | 
+
+Note that this table provides a partial list of data types only. 
 
 Let's take a look at the following description of the Accoun class. Usually, an account has 
 
