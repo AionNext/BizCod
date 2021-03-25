@@ -49,7 +49,7 @@ define model Account
 ;
 ```
 In simple terms, this BzCod statement translates into :
-define a data model (class) Account that has id , name and account type properties. These properties are of different types (ID, Text and Text respectively) to represent different types of data.
+define a data model (class) Account that has id , name and account type properties. These properties are of different types (ID, Text and Text respectively) to represent different forms of data.
 
 ```html
 <script src="//unpkg.com/graphre/dist/graphre.js"></script>
