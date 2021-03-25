@@ -9,7 +9,7 @@ The language has been designed to provide a common development platform for both
 
 The porogramming foundation of the language has been based on the following concepts :
 * [Data](Data.md)
-* [Procedural Logic](#the-data)
+* [Procedural Logic](Logic.md)
 * [Knowledge](#the-data)
 * [User Interface](#the-data)
 
