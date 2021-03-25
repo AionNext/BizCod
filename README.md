@@ -24,7 +24,7 @@ This unit is called a class of data and the data elements that form this unit ar
 
 As mentioned previously, the data properties are typed to represent different forms of data. To begin with and create a basic data type foundation, BizCod provides the types the are 'internally' defined. These internal types are called primitive types. The following table provides the basic primitive data types: 
 
-| type                           | Description   |
+| primitive data type                           | Description   |
 |--------------------------------|------------------------------------------------------------------------|
 | ID                             |  this data type stores a unique ID number. It is usually used for identification                    |
 | Text                    | textual data to store the text such as 'John Roberts' 'commercial account' and so on                                          | 
