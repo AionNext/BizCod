@@ -50,3 +50,7 @@ define model Bank
 * [Instruction set](#instruction-set)
 
 
+
+____________________
+2021 AionNEXT Corporation<br>
+we build soft and you build app | <b>soft4app</b>
