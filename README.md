@@ -7,13 +7,13 @@ The language has been designed to provide a common development platform for both
 
 # Introduction
 
-The porogramming foundation of the language has been based on the following main aspects of business application assets:
+The porogramming foundation of the language has been based on the following concepts :
 * [Data](#the-data)
-- data
-- procedural logic
-- knowledge
+* [Procedural Logic](#the-data)
+* [Knowledge](#the-data)
 
-The followuing chapetrs provide the detailed explanation of these concepts
+
+The following chapters provide the detailed explanation of these concepts
 
 
 
