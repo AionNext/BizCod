@@ -19,7 +19,9 @@ The following chapters provide the detailed explanation of these concepts
 
 # The data
 
-A data element is a container that stores the information. This information can take different forms (or be of certain types). For example it can store text, number or date. The data elements can be grouped together to form a coherent unit of information. This unit is called a class of data. the data elemensts that form this unit are called properties. Therefore a class is a collection (gruoping) of data properties.
+A data element is a container that stores the information. This information can take different forms (or be of certain types). For example it can store text, number or date. The data elements can be grouped together to form a coherent unit of information. 
+This unit is called a class of data and the data elements that form this unit are called properties. Therefore, a class is a collection (grouping) of data properties.
+As mentioned previously, the data properties are typed to represent different types of data. The following table provides the basic data types: 
 
 Let's take a look at the following description of the Accoun class. Usually, an account has 
 
