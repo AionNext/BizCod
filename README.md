@@ -24,7 +24,7 @@ This unit is called a class of data and the data elements that form this unit ar
 
 As mentioned previously, the data properties are typed to represent different forms of data. To begin with and create a basic data type foundation, BizCod provides the types the are 'internally' defined. These internal types are called primitive types. The following table provides the basic primitive data types: 
 
-| primitive data type                           | Description   |
+| primitive data type                           | description   |
 |--------------------------------|------------------------------------------------------------------------|
 | ID                             |  this data type stores a unique ID number. It is usually used for identification                    |
 | Text                    | textual data to store the text such as 'John Roberts' 'commercial account' and so on                                          | 
@@ -35,7 +35,8 @@ As mentioned previously, the data properties are typed to represent different fo
 
 Note that this table provides a partial list of data types only. 
 
-Let's take a look at the following description of the Accoun class. Usually, an account has 
+Moving forward, let's provide a practical illustration of BizCod data type mechanism. We will use the Banking system to illustrate the data foundation. 
+Here we will define a Account class to hold the basic information about the account
 
 
 
