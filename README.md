@@ -8,6 +8,7 @@ The language has been designed to provide a common development platform for both
 # Introduction
 
 The porogramming foundation of the language has been based on the following main aspects of business application assets:
+* [Data](#The data)
 - data
 - procedural logic
 - knowledge
