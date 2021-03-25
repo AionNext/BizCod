@@ -27,11 +27,11 @@ As mentioned previously, the data properties are typed to represent different ty
 | type                           | Description   |
 |--------------------------------|------------------------------------------------------------------------|
 | ID                             |  this data type stores a unique ID number. It is usually used for identification                    |
-| text                    | textual data to store the text such as 'John Roberts' 'commercial account' and so on                                          | 
-| number                     | number to store numbers such as 100, 3000. The number can be either positive or negative                                        | 
-| decimal                     | decimal data that are desiged to store decimal numbers such as 213213.45 , -24324.67                                          | 
-| date                     | to store then date                                      | 
-| logical                     | logical type that can be either true or false                                        | 
+| Text                    | textual data to store the text such as 'John Roberts' 'commercial account' and so on                                          | 
+| Number                     | number to store numbers such as 100, 3000. The number can be either positive or negative                                        | 
+| Decimal                     | decimal data that are desiged to store decimal numbers such as 213213.45 , -24324.67                                          | 
+| Date                     | to store then date                                      | 
+| Logical                     | logical type that can be either true or false                                        | 
 
 Note that this table provides a partial list of data types only. 
 
