@@ -45,8 +45,7 @@ Here we will define a Account class to hold the basic information about the acco
 define model Account
     id ID,
     name Text,
-    accountType Text
-    
+    accountType Text    
 ;
 ```
 
