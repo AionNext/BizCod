@@ -35,17 +35,18 @@ As mentioned previously, the data properties are typed to represent different fo
 
 Note that this table provides a partial list of data types only. 
 
-Moving forward, let's provide a practical illustration of BizCod data type mechanism. We will use the Banking system to illustrate the data foundation. 
+Moving forward, let's provide a practical application of BizCod data type foundation. We will use the Banking system to define the data model. 
 Here we will define a Account class to hold the basic information about the account
 
 
 
 
 ```
-define model Bank
+<b>define model</b> Account
     id ID,
-    name Text fact,
-    account (Account)* [1:n]
+    name Text,
+    accountType Text
+    
 ;
 ```
 
