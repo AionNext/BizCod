@@ -1,10 +1,10 @@
-# BizCod
+# BizCod Programming Language
 
-# BizDev Programming Guide
 
-BizDev is a suite of products that enable the development of Enterprise Application Software Fabric (EAS/F) in Rexi environment.
+BizCod is a programming language designed to develop business applications and Rexi emvironment native platform. 
 
-It is Rexi based and can only run in Rexi environment. For more information about Rexi Operating System please refer to this publication.
+The language has been designed to provide a common development platform for both business users (SME) and profesional programmers. Therefore, The language operates at two levels of complexity and this provides a powerful communication means to integrate both group of developers in the process of application development. 
+
 
 
 ```
