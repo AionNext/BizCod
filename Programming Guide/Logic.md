@@ -1,9 +1,13 @@
 # BizCod Procedural Logic
 
 
-The objective of BizCod procedural logic is to provide means to process the data. Once the data is defined, it can now be processed in order to produce information or to generate other types of data.
+The objective of BizCod procedural logic is to provide means to process the data. Once the data are defined, they can be processed in order to produce information or to generate other types of data.
 
-From conceptual standpoint, procedural logic is a set of instructions that the programmer can use (group) to process the data. Since these instructions perform different functions, they are 
+From conceptual standpoint, procedural logic is a set of instructions that the programmer can use (group) to process the data. Since these instructions perform different functions, they are of different types. Here are the basi types:
+- assignment instructions
+- conditional instructions
+- procedure invocation instructions
+- 
 
 # Introduction
 
