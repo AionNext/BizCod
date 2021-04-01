@@ -41,7 +41,7 @@ Instanciation instruction creates an instance of a class of data. Since class is
 
 ```
 
-this instruction creates an instance of class `Account` and set the value of variable account to this instance
+this instruction creates an instance of class `Account` and set the value of variable `account` to this instance
 
 # Procedures
 
