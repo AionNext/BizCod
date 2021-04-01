@@ -84,6 +84,11 @@ Logical condition is a logical expression that evaluautes to either `true` or `f
 Repetition is a special kind of conditional instruction. The purpose of repetition is to execute a block of code as long as the condition remains satisfied (or met, or true).
 
 
+```js
+  while  <condition> 
+     <block>
+```
+
 # Procedures
 
 A procedure is a collection of instructions that are grouped into a coherent unit. This group of instructions (procedure) can be called and run. Usually, the procedure defines:
