@@ -10,14 +10,14 @@ From conceptual standpoint, procedural logic is a set of instructions that the p
 
 # Assignment instruction
 
-Asignemt instruction assign value to a variable or property. There are two forms that can be used being either:
-- set
+Assignment instruction assigns value to a variable or property. There are two forms that can be used, being either:
+- set - using form set <property> to <value>, or
 - direct assignemnt
 
-here is an example 
+here are the examples of these two forms
 
 ```
-set maxIncome to 200000
+<b>set</b> maxIncome <b>to</b> 200000
 
 ```
 
