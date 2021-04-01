@@ -16,7 +16,7 @@ Assignment instruction assigns value to a variable or property. There are two fo
 
 here are the examples of these two forms
 
-```
+```javascript
 set interestRate to 0.12
 
 ```
