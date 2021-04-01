@@ -52,7 +52,7 @@ Here is a general format of conditional instruction
 
 
 
-```basic
+```c
   if <condition then
      <block>
   else 
