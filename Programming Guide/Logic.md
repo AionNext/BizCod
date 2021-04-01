@@ -62,6 +62,11 @@ Here is a general format of conditional instruction
 ```
 
 
+## Logical condition 
+
+Logical condition is a logical expression that evaluautes to either `true` or `false`. BizCod 
+
+
 # Procedures
 
 A procedure is a collection of instructions that are grouped into a coherent unit. This group of instructions (procedure) can be called and run. Usually, the procedure defines:
