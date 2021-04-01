@@ -98,7 +98,12 @@ A procedure is a collection of instructions that are grouped into a coherent uni
 
 # Call instruction
 
-A procedure is a col
+A procedure call instruction is simnply invocation a define dprocedure with the respective argument list if defined. 
+
+```js
+  <procedure-name>(<list-of-arguments>
+```
+
 
 
 
