@@ -13,3 +13,5 @@ The [`SetDescription`](https://pkg.go.dev/github.com/thatisuday/commando?tab=doc
 **description**
 
 `--version`
+
+![logo](/assets/logo.png)
