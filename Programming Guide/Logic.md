@@ -31,6 +31,17 @@ or, alternatively
 these two forms are equivalent.
 
 
+# Instanciation instruction
+
+Instanciation instruction creates an instance of a class of data. Since class is just a template for data creation it does not hold any value; it is not a container.  To create  a particular instance, BizCod provides `set instance` instruction. Here is an exampple:
+
+
+```js
+ set account to instance of Account
+
+```
+
+
 # Procedures
 
 A procedure is a collection of instructions that are gropuped togther into a coherent unit. This group of instructions (procedure) can be called and run. Usually, the procedure defines:
