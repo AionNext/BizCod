@@ -104,7 +104,7 @@ A procedure call instruction is simnply invocation a define dprocedure with the 
   <procedure-name>(<list-of-arguments>)
 ```
 
-here is a simple example the procedure call (invocation) 
+here is a simple example of a procedure call (invocation) 
 
 
 ```js
