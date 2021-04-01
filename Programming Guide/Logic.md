@@ -53,7 +53,7 @@ Here is a general format of conditional instruction
 
 
 ```c
-  if <condition then
+  if `<condition>` then
      <block>
   else 
      <block>
