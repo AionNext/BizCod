@@ -53,7 +53,7 @@ Here is a general format of conditional instruction
 
 
 ```c
-  if `<condition>` then
+  if <condition> then
      <block>
   else 
      <block>
@@ -64,7 +64,7 @@ Here is a general format of conditional instruction
 
 # Procedures
 
-A procedure is a collection of instructions that are gropuped togther into a coherent unit. This group of instructions (procedure) can be called and run. Usually, the procedure defines:
+A procedure is a collection of instructions that are grouped into a coherent unit. This group of instructions (procedure) can be called and run. Usually, the procedure defines:
 - input arguments
 - output arguments
 - procedure body
