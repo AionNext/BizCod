@@ -10,3 +10,4 @@ Andrew->>China: I am good thanks!
 ```
 
 
+[`commando.SetExecutableName`]
