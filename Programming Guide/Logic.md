@@ -33,7 +33,7 @@ these two forms are equivalent.
 
 # Instanciation instruction
 
-Instanciation instruction creates an instance of a class of data. Since class is just a template for data creation it does not hold any value; it is not a container.  To create  a particular instance, BizCod provides `set instance` instruction. Here is an exampple:
+Instanciation instruction creates an instance of a class of data. Since class is just a template for data creation it does not hold any value; it is not a container.  To create  a particular instance, BizCod provides `set instance` instruction. Here is an example:
 
 
 ```js
@@ -41,6 +41,7 @@ Instanciation instruction creates an instance of a class of data. Since class is
 
 ```
 
+this instruction creates an instance of class `Account` and set the value of variable account to this instance
 
 # Procedures
 
