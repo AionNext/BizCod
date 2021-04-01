@@ -23,7 +23,7 @@ set interestRate to 0.12
 
 or, alternatively
 
-```
+```javascript
  interestRate = 0.12
 
 ```
