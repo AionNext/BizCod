@@ -14,7 +14,7 @@ Assignment instruction assigns value to a variable or property. There are two fo
 - set - using form **set** `property` **to** `value`, or
 - direct assignemnt
 
-here are the examples of these two forms
+here are examples of these two forms
 
 ```js
 set interestRate to 0.12
