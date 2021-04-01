@@ -9,6 +9,11 @@ From conceptual standpoint, procedural logic is a set of instructions that the p
 - procedure invocation instructions
 - 
 
-# Introduction
+# Procedures
 
-The porogramming foundation of the language has been based on the following concepts :
+A procedure is a collection of instructions that are gropuped togther into a coherent unit. This group of instructions (procedure) can be called and run. Usually, the procedure defines:
+- input arguments
+- output arguments
+- procedure body
+
+
