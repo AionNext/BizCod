@@ -17,14 +17,14 @@ Assignment instruction assigns value to a variable or property. There are two fo
 here are the examples of these two forms
 
 ```
-set maxIncome to 200000
+set interestRate to 0.12
 
 ```
 
 or, alternatively
 
 ```
- maxIncome = 200000
+ interestRate = 0.12
 
 ```
 
