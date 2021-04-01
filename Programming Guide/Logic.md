@@ -12,7 +12,7 @@ From conceptual standpoint, procedural logic is a set of instructions that the p
 
 Assignment instruction assigns value to a variable or property. There are two forms that can be used, being either:
 - set - using form **set** `property` **to** `value`, or
-- direct assignemnt
+- direct assignment
 
 here are examples of these two forms
 
@@ -23,14 +23,13 @@ set interestRate to 0.12
 
 or, alternatively
 
-```javascript
+```js
  interestRate = 0.12
 
 ```
 
-these two forms are equivalent
+these two forms are equivalent.
 
-A procedure is a collection o
 
 # Procedures
 
