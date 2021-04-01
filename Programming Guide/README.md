@@ -27,7 +27,7 @@ As mentioned previously, the data properties are typed to represent different fo
 
 | primitive data type                           | description   |
 |--------------------------------|------------------------------------------------------------------------|
-| ID                             |  this data type stores a unique ID number. It is usually used for identification                    |
+| ID                             |  this data type stores a unique ID number. It is usually used for identification purpose to identify objects that are globally unique                    |
 | Text                    | textual data to store the text such as 'John Roberts' 'commercial account' and so on                                          | 
 | Number                     | number to store numbers such as 100, 3000. The number can be either positive or negative                                        | 
 | Decimal                     | decimal data that are desiged to store decimal numbers such as 213213.45 , -24324.67                                          | 
