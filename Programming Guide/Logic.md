@@ -14,7 +14,21 @@ Asignemt instruction assign value to a variable or property. There are two forms
 - set
 - direct assignemnt
 
-her is an 
+here is an example 
+
+```
+set maxIncome to 200000
+
+```
+
+or, alternatively
+
+```
+ maxIncome = 200000
+
+```
+
+these two forms are equivalent
 
 A procedure is a collection o
 
