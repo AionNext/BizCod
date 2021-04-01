@@ -111,7 +111,7 @@ here is a simple example the procedure call (invocation)
   calculateInterestRate()
 ```
 
-or with the agruments
+or with the arguments
 
 
 ```js
