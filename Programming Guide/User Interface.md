@@ -1,7 +1,6 @@
 
 
 
-###Sequence Diagram
                     
 ```seq
 Andrew->China: Says Hello 
@@ -10,4 +9,4 @@ China-->Andrew: How are you?
 Andrew->>China: I am good thanks!
 ```
 
-###End
+
