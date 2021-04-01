@@ -48,7 +48,7 @@ Instanciation instruction creates an instance of a class of data. Since class is
 or, elternatively
 
 ```js
- account = Account.create
+ account = Account::create
 
 ```
 
