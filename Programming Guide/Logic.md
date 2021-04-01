@@ -7,7 +7,16 @@ From conceptual standpoint, procedural logic is a set of instructions that the p
 - assignment instructions
 - conditional instructions
 - procedure invocation instructions
-- 
+
+# Assignment instruction
+
+Asignemt instruction assign value to a variable or property. There are two forms that can be used being either:
+- set
+- direct assignemnt
+
+her is an 
+
+A procedure is a collection o
 
 # Procedures
 
@@ -15,5 +24,8 @@ A procedure is a collection of instructions that are gropuped togther into a coh
 - input arguments
 - output arguments
 - procedure body
+
+
+
 
 
