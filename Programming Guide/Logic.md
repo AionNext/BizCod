@@ -1,9 +1,9 @@
 # BizCod Procedural Logic
 
 
-BizCod is a programming language designed to provides means to develop business applications in Rexi native platform. 
+The objective of BizCod procedural logic is to provide means to process the data. Once the data is defined, it can now be processed in order to produce information or to generate other types of data.
 
-The language has been designed to provide a common development platform for both business users (SME) and profesional programmers. Therefore, The language operates at two levels of complexity and this provides a powerful communication means to integrate both group of developers in the process of application development. 
+From conceptual standpoint, procedural logic is a set of instructions that the programmer can use (group) to process the data. Since these instructions perform different functions, they are 
 
 # Introduction
 
