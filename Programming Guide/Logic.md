@@ -16,7 +16,7 @@ Assignment instruction assigns value to a variable or property. There are two fo
 
 here are the examples of these two forms
 
-```go
+```java
 set interestRate to 0.12
 
 ```
