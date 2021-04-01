@@ -17,7 +17,7 @@ Assignment instruction assigns value to a variable or property. There are two fo
 here are the examples of these two forms
 
 ```
-<b>set</b> maxIncome <b>to</b> 200000
+set maxIncome to 200000
 
 ```
 
