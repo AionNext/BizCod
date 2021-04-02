@@ -58,7 +58,7 @@ this instruction creates an instance of class `Account` and set the value of var
 
 # Conditional instruction
 
-The purpose of conditional instruction is to provide means to process a block of instructions based on certain conditions. If these conditions are met the block will be executed. If they are niot met the block will not be executed. Optionally, conditional instruction can define the block of instructions that will be executed if the conditions arte not met. 
+The purpose of conditional instruction is to provide means to process a block of instructions based on certain conditions. If these conditions are met the block will be executed. If they are not met the block will not be executed. Optionally, conditional instruction can define the block of instructions that will be executed if the conditions arte not met. 
 Here is a general format of conditional instruction
 
 
