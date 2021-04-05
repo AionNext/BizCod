@@ -68,12 +68,17 @@ define model SavingsAccount is Account, InterestAccount
 `SavingsAccount` inherits properties from `Account` and `InterestAccount` data models. Here is howthis data models would look like fully defined
 
 ```js
-define model InterestAccount
+define model SavingsAccount
     id ID,
     name Text,
     accountType Text,
     interestRate Decimal,    
     calcPeriod Text
 ;
+```
+
+```
+
+define model kontooszczędnościowe is SavingsAccount
 ```
 
