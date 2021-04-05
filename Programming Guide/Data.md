@@ -77,8 +77,7 @@ define model SavingsAccount
 ;
 ```
 
-```
-
-define model kontooszczędnościowe is SavingsAccount
+```js
+define model kontoOszczędnościowe is SavingsAccount
 ```
 
