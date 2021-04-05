@@ -104,5 +104,13 @@ define
 ;
 ```
 
+Therefore, the follwig definition would not be able to rseolve because the property id is defined twice with different data types (ID and Number respectively)
 
+```js
+define model SavingsAccount is Account, InterestAccount
+    calcPeriod Text
+;
+```
+
+This defdinition will not result in error.
 
