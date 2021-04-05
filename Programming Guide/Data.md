@@ -99,7 +99,7 @@ define
     model InterestAccount
         id Number,
         name Text,
-        accountType Text    
+        accountType Text,    
         interestRate Decimal
 ;
 ```
