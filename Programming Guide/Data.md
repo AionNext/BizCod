@@ -33,3 +33,8 @@ define model Account
 ```
 In simple terms, this BzCod statement translates into :
 define a data model (class) Account that has id , name and account type properties. These properties are of different types (ID, Text and Text respectively) to represent different forms of data.
+
+## Inheritance
+
+In BizCod data models can be 'composed' using already defined data. This is very useful, when some data models sher common properties. In order to alleviate the problme of redefing the sam edata mode segment numbe rof times, BizCod provides a mechanis to inherit these alraedy define datas models in other data structure. This mechanism is called inheritance where one data model inherits properties from another inrehited data model. This two data models are in subclass relationship where the data model that inreits the property from the parent class is called subclass of that parent class. Let's illustartes this very simpel concept 
+
