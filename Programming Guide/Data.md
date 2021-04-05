@@ -95,6 +95,7 @@ define
         id ID,
         name Text,
         accountType Text    
+        
     model InterestAccount
         id Number,
         name Text,
