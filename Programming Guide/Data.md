@@ -20,6 +20,8 @@ As mentioned previously, the data properties are typed to represent different fo
 
 Note that this table provides a partial list of data types only. 
 
+## Data model
+
 Moving forward, let's provide a practical application of BizCod data model. We will use the Banking system to define the data model. 
 Here we will define a Account class to hold the basic information about the account
 
