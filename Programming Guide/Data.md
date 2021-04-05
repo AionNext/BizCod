@@ -87,5 +87,21 @@ define model kontoOszczędnościowe is SavingsAccount
 
 Multiple inheritan represents  apowerful way to reuse the already defined data elemnst and relives the programmer from the mandate task of redefining the same data elemenets (properties) over and over. While being very powerful, multiple inrheritance might lead to unresolve dproblems where the sme data element (property is redffined multiple times (at least twice) with different data types. 
 
+Conside these two definitions 
+
+```js
+define 
+    model Account
+        id ID,
+        name Text,
+        accountType Text    
+    model InterestAccount
+        id Number,
+        name Text,
+        accountType Text    
+        interestRate Decimal
+;
+```
+
 
 
