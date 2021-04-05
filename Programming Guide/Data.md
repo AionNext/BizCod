@@ -77,6 +77,8 @@ define model SavingsAccount
 ;
 ```
 
+In addition, inheritance mechanism provides a convenient way  to redefine already defined data models that might otherwise be known bo ther names. This is called aliasing
+
 ```js
 define model kontoOszczędnościowe is SavingsAccount
 ```
