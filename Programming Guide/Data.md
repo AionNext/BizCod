@@ -89,7 +89,7 @@ define model kontoOszczędnościowe is SavingsAccount
 
 ## Caveat
 
-Multiple inheritan represents  apowerful way to reuse the already defined data elemnst and relives the programmer from the mandate task of redefining the same data elemenets (properties) over and over. While being very powerful, multiple inrheritance might lead to unresolve dproblems where the sme data element (property is redffined multiple times (at least twice) with different data types. 
+Multiple inheritan represents a powerful way to reuse the already defined data elemnst and relives the programmer from the mandate task of redefining the same data elemenets (properties) over and over. While being very powerful, multiple inrheritance might lead to unresolve dproblems where the sme data element (property is redffined multiple times (at least twice) with different data types. 
 
 Conside these two definitions 
 
@@ -107,6 +107,8 @@ define
         interestRate Decimal
 ;
 ```
+
+When BizCod processe data m,odel defintions that define inheritance it attempts to resolve the inheritance. What it means is that it applies multpipe inheritance consitency rules in order to resolve data model inheritance. When these rules fail, it generates an error.
 
 Therefore, the follwig definition would not be able to rseolve because the property id is defined twice with different data types (ID and Number respectively)
 
