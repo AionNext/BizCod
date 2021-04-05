@@ -7,7 +7,7 @@ This unit is called a class of data and the data elements that form this unit ar
 
 ## Primitive data types
 
-As mentioned previously, the data properties are typed to represent different forms of data. To begin with and create a basic data type foundation, BizCod provides the types the are 'internally' defined. These internal types are called primitive types. The following table provides the basic primitive data types: 
+As mentioned previously, the data properties are typed to represent different forms of data. To begin with and create a basic data type foundation, BizCod provides data types the are 'internally' defined. These internal types are called primitive types. The following table provides the basic primitive data types: 
 
 | primitive data type                           | description   |
 |--------------------------------|------------------------------------------------------------------------|
