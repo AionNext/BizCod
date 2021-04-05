@@ -49,7 +49,7 @@ define model InvestmentAccount
 ;
 ```
 
-
+`Investmet Account` shares three properties with already define data model `Account`
 
 
 
