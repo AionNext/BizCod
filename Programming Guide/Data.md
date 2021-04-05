@@ -67,7 +67,7 @@ define model SavingsAccount is Account, InterestAccount
 
 `SavingsAccount` inherits properties from `Account` and `InterestAccount` data models. Here is howthis data models would look like fully defined
 
-```
+```js
 define model InterestAccount
     id ID,
     name Text,
