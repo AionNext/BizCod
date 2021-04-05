@@ -59,7 +59,7 @@ define model InterestAccount is Account
 
 In addition, BizCod supports multiple inreritance so it is possible that one data model inreits properties form many data models. Here is an example
 
-```
+```js
 define model SavingsAccount is Account, InterestAccount
     calcPeriod Text
 ;
