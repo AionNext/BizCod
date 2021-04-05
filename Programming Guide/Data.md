@@ -108,7 +108,7 @@ define
 ;
 ```
 
-When BizCod processe data m,odel defintions that define inheritance it attempts to resolve the inheritance. What it means is that it applies multpipe inheritance consitency rules in order to resolve data model inheritance. When these rules fail, it generates an error.
+When BizCod processe data m,odel defintions that define inheritance it attempts to resolve the inheritance. What it means is that it applies multpipe inheritance consitency rules in order to resolve data model inheritance. When these rules fail, it generates an error and invalidates the entire program.
 
 Therefore, the follwig definition would not be able to rseolve because the property id is defined twice with different data types (ID and Number respectively)
 
