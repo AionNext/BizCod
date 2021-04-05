@@ -24,7 +24,7 @@ Here we will define a Account class to hold the basic information about the acco
 
 
 
-```
+```js
 define model Account
     id ID,
     name Text,
@@ -40,7 +40,7 @@ In BizCod data models can be 'composed' using already defined data. This is very
 
 Let's define an accoun type **SavingsAccont** which is an account with additional property `interestRate`. Here we can this account
 
-```
+```js
 define model InterestAccount
     id ID,
     name Text,
@@ -51,7 +51,7 @@ define model InterestAccount
 
 `Investmet Account` shares three properties with already define data model `Account`. This data model can be redfined using inheritance mechanism t inherits thes 3 properties from data modedl `Account`. 
 
-```
+```js
 define model InterestAccount is Account
     interestRate Decimal
 ;
