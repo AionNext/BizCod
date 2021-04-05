@@ -41,7 +41,7 @@ In BizCod data models can be 'composed' using already defined data. This is very
 Let's define an accoun type **SavingsAccont** which is an account with additional property `interestRate`. Here we can this account
 
 ```
-define model InvestmentAccount
+define model InterestAccount
     id ID,
     name Text,
     accountType Text    
@@ -52,10 +52,28 @@ define model InvestmentAccount
 `Investmet Account` shares three properties with already define data model `Account`. This data model can be redfined using inheritance mechanism t inherits thes 3 properties from data modedl `Account`. 
 
 ```
-define model InvestmentAccount is Account
+define model InterestAccount is Account
     interestRate Decimal
 ;
 ```
 
+In addition, BizCod supports multiple inreritance so it is possible that one data model inreits properties form many data models. Here is an example
 
+```
+define model SavingsAccount is Account, InterestAccount
+    calcPeriod Text
+;
+```
+
+`SavingsAccount` inherits properties from `Account` and `InterestAccount` data models. Here is howthis data models would look like fully defined
+
+```
+define model InterestAccount
+    id ID,
+    name Text,
+    accountType Text,
+    interestRate Decimal,    
+    calcPeriod Text
+;
+```
 
