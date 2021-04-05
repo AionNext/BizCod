@@ -13,10 +13,10 @@ From conceptual standpoint, procedural logic is a set of instructions that the p
 The folliwng represents a formal function definition
 
 ```js
-define function <name>([<args>]) [ ->  ] 
+define function <name>([<args>]) [ ->  variable [Type] ] 
 
   [<body>]
 ```
 
 
-where arguments, return type and body can be optional
+where arguments,  and body can be optional
