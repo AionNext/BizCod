@@ -49,7 +49,13 @@ define model InvestmentAccount
 ;
 ```
 
-`Investmet Account` shares three properties with already define data model `Account`
+`Investmet Account` shares three properties with already define data model `Account`. This data model can be redfined using inheritance mechanism t inherits thes 3 properties from data modedl `Account`. 
+
+```
+define model InvestmentAccount is Account
+    interestRate Decimal
+;
+```
 
 
 
