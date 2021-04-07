@@ -120,3 +120,15 @@ define model SavingsAccount is Account, InterestAccount
 
 This defdinition will not result in error.
 
+
+# Data domain
+
+once the data models are defined they can be grouped into cogerent set of models called object domain. A domain is a collection of data models that
+
+
+```js
+define domain BankingDomain {
+    Account, CommerciaAccount, InvestmentAccount, Branch
+}
+```
+
