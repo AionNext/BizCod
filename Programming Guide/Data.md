@@ -162,6 +162,11 @@ once the data models are defined they can be grouped into coherent set of data m
 
 ```js
     define association between A.asdasdasd and B.asdsadsadsad one-to-many
+        asdsadsad, 
+        asdasdsads, 
+        asdsad, 
+        asdsadsadsad, 
+        asdasdsad Text
 ```
 
 
