@@ -169,7 +169,9 @@ once the data models are defined they can be grouped into coherent set of data m
         asdasdsad Text
 ```
 
-
+```js
+    diagram <name>(<args>) { asdcxasdsadsad, asdasdsa, asdsadsad, asdasdasdsa }
+```
 
 ____________________
 2022 AionNEXT Corporation<br>
