@@ -173,6 +173,7 @@ once the data models are defined they can be grouped into coherent set of data m
     define diagram <name>(<args>) { asdcxasdsadsad, asdasdsa, asdsadsad, asdasdasdsa }
 ```
 
+https://www.freeprojectz.com/uml-diagram/banking-management-system-uml-diagram
 ____________________
 2022 AionNEXT Corporation<br>
 we build soft and you build app | <b>soft4app</b>
