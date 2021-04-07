@@ -87,9 +87,9 @@ In addition, inheritance mechanism provides a convenient way  to redefine alread
 define model kontoOszczędnościowe is SavingsAccount
 ```
 
-## Caveat
+## Multiple inheritance conflict
 
-Multiple inheritan represents a powerful way to reuse the already defined data elemnst and relives the programmer from the mandate task of redefining the same data elemenets (properties) over and over. While being very powerful, multiple inrheritance might lead to unresolve dproblems where the sme data element (property is redffined multiple times (at least twice) with different data types. 
+Multiple inheritance represents a powerful way to reuse the already defined data elemnst and relives the programmer from the mandate task of redefining the same data elemenets (properties) over and over. While being very powerful, multiple inrheritance might lead to unresolve dproblems where the sme data element (property is redffined multiple times (at least twice) with different data types. 
 
 Conside these two definitions 
 
