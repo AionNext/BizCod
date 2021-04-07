@@ -143,14 +143,27 @@ once the data models are defined they can be grouped into coherent set of data m
 
 - models
 - arrows
+- relations
 - associations
 
 
 ```js
-define domain BankingDomain {
-    Account, CommerciaAccount, InvestmentAccount, Branch
+    define domain BankingDomain {
+        Account, CommerciaAccount, InvestmentAccount, Branch
 }
 ```
+
+
+```js
+    define arrow <name>(<args>):A->B     
+        <body>
+```
+
+
+```js
+    define association between A.asdasdasd and B.asdsadsadsad one-to-many
+```
+
 
 
 ____________________
