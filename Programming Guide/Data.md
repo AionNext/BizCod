@@ -139,7 +139,11 @@ define method
 
 # Data domain
 
-once the data models are defined they can be grouped into cogerent set of models called object domain. A domain is a collection of data models that
+once the data models are defined they can be grouped into coherent set of data models called object domain. A domain is a collection of data models that
+
+- models
+- functions
+- associations
 
 
 ```js
