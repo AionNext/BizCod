@@ -121,6 +121,22 @@ define model SavingsAccount is Account, InterestAccount
 This defdinition will not result in error.
 
 
+# Methods
+
+While data model defines data structures and provide the information about the buisnes objects, they alone do not provide any means to manipuate (process) its content. A method is simply a function that provides means to process the data mopdel strucrues and are attached to the data model
+
+```js
+
+define method 
+    Account::isCommercialAccount(asdfsad Text) -> boolean 
+        if (Account.type =   'commercial) then
+            return true
+        end
+        return false
+
+```
+
+
 # Data domain
 
 once the data models are defined they can be grouped into cogerent set of models called object domain. A domain is a collection of data models that
