@@ -170,7 +170,7 @@ once the data models are defined they can be grouped into coherent set of data m
 ```
 
 ```js
-    diagram <name>(<args>) { asdcxasdsadsad, asdasdsa, asdsadsad, asdasdasdsa }
+    define diagram <name>(<args>) { asdcxasdsadsad, asdasdsa, asdsadsad, asdasdasdsa }
 ```
 
 ____________________
