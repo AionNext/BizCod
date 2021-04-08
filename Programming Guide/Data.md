@@ -37,6 +37,10 @@ define model Account
 ```
 In simple terms, this BzCod statement translates into :
 > define a data model (class) Account that has id , name and account type properties. These properties are of different types (ID, Text and Text respectively) to represent  different forms of data.
+> 
+## Instantiation
+
+The data model defines the data structure that serves a bluprint to create a concrete data called instances. The instantiation is a process of creating a concrete instances of the abstract data model.
 
 ## Inheritance
 
