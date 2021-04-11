@@ -131,14 +131,16 @@ While data models define data structures and provide the information about the b
 
 ```js
 
-define method 
-    Account::isCommercialAccount(asdfsad Text) -> boolean 
-        if (Account.type =   'commercial) then
+define 
+    method Account::isCommercialAccount(type Text) -> boolean 
+        if (Account.type = type) then
             return true
         end
         return false
 
 ```
+
+Here, a method `isCommercialAccount` is defined on data model `Account` and accepts argument `type` (Text) and returns logical value.
 
 
 # Data domain
