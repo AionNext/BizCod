@@ -65,7 +65,7 @@ define model InterestAccount is Account
 ;
 ```
 
-In addition, BizCod supports multiple inreritance so it is possible that one data model inreits properties form many data models. Here is an example
+In addition, BizCod supports multiple inreritance so it is possible that one data model inherits properties from many data models. Here is an example
 
 ```js
 define model SavingsAccount is Account, InterestAccount
@@ -73,7 +73,7 @@ define model SavingsAccount is Account, InterestAccount
 ;
 ```
 
-`SavingsAccount` inherits properties from `Account` and `InterestAccount` data models. Here is howthis data models would look like fully defined
+`SavingsAccount` inherits properties from `Account` and `InterestAccount` data models. Here is how this data models would look like fully defined
 
 ```js
 define model SavingsAccount
@@ -85,15 +85,15 @@ define model SavingsAccount
 ;
 ```
 
-In addition, inheritance mechanism provides a convenient way  to redefine already defined data models that might otherwise be known bo ther names. This is called aliasing
+In addition, inheritance mechanism provides a convenient way to redefine already defined data models that might otherwise be known bo ther names.
 
 ```js
-define model kontoOszczędnościowe is SavingsAccount
+define model InterestBearingAccount is SavingsAccount
 ```
 
 ## Multiple inheritance conflict
 
-Multiple inheritance represents a powerful way to reuse the already defined data elemnst and relives the programmer from the mandate task of redefining the same data elemenets (properties) over and over. While being very powerful, multiple inrheritance might lead to unresolve dproblems where the sme data element (property is redffined multiple times (at least twice) with different data types. 
+Multiple inheritance represents a powerful way to reuse the already defined data elemnst and relives the programmer from the mandate task of redefining the same data elemenets (properties) over and over. While being very powerful, multiple inrheritance might lead to unresolved problems where the same data element (property is redefined multiple times (at least twice) with different data types. 
 
 Conside these two definitions 
 
@@ -112,7 +112,7 @@ define
 ;
 ```
 
-When BizCod processe data m,odel defintions that define inheritance it attempts to resolve the inheritance. What it means is that it applies multpipe inheritance consitency rules in order to resolve data model inheritance. When these rules fail, it generates an error and invalidates the entire program.
+When BizCod processe data model defintions that define inheritance it attempts to resolve the inheritance. What it means is that it applies multpipe inheritance consitency rules in order to resolve data model inheritance. When these rules fail, it generates an error and invalidates the entire program.
 
 Therefore, the follwig definition would not be able to rseolve because the property id is defined twice with different data types (ID and Number respectively)
 
