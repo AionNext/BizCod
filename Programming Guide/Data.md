@@ -57,7 +57,7 @@ define model InterestAccount
 ;
 ```
 
-`Investmet Account` shares three properties with already define data model `Account`. This data model can be redfined using inheritance mechanism t inherits thes 3 properties from data modedl `Account`. 
+`Investment Account` shares three properties with already defined data model `Account`. This data model can be redfined using inheritance mechanism to inherit these 3 properties from data model `Account`. 
 
 ```js
 define model InterestAccount is Account
