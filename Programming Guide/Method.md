@@ -56,7 +56,7 @@ The method `isNew` defined before is an instance method. Here is an example of a
             return i
 ```
 
-This trivial class method defined on the model `Part` simply create an instance of `Part` data model (class).
+This trivial class method defined on the model `Part` simply creates an instance of `Part` data model (class).
 ____________________
 2022 AionNEXT Corporation<br>
 we build soft and you build app | <b>soft4app</b>
