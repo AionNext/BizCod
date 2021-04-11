@@ -93,7 +93,7 @@ define model InterestBearingAccount is SavingsAccount
 
 ## Multiple inheritance conflict
 
-Multiple inheritance represents a powerful way to reuse the already defined data elemnst and relives the programmer from the mandate task of redefining the same data elemenets (properties) over and over. While being very powerful, multiple inrheritance might lead to unresolved problems where the same data element (property is redefined multiple times (at least twice) with different data types. 
+Multiple inheritance represents a powerful way to reuse already defined data elemenst and relieves the programmer from mandate task of redefining the same data elements (properties) over and over. While being very powerful, multiple inrheritance might lead to unresolved problems where the same data element (property is redefined multiple times (at least twice) with different data types. 
 
 Conside these two definitions 
 
@@ -112,9 +112,9 @@ define
 ;
 ```
 
-When BizCod processe data model defintions that define inheritance it attempts to resolve the inheritance. What it means is that it applies multpipe inheritance consitency rules in order to resolve data model inheritance. When these rules fail, it generates an error and invalidates the entire program.
+When BizCod processes data model defintions that define inheritance it attempts to resolve the inheritance. What it means is that it applies multpiple inheritance consitency rules in order to resolve data model inheritance. When these rules fail, it generates an error and invalidates the entire program.
 
-Therefore, the follwig definition would not be able to rseolve because the property id is defined twice with different data types (ID and Number respectively)
+Therefore, the followig definition would not be able to resolve because the property `id` is defined twice with different data types (ID and Number respectively)
 
 ```js
 define model SavingsAccount is Account, InterestAccount
@@ -122,12 +122,12 @@ define model SavingsAccount is Account, InterestAccount
 ;
 ```
 
-This defdinition will not result in error.
+This definition is invalid and BizCod will nopt be able to resolve it.
 
 
 # Methods
 
-While data model defines data structures and provide the information about the buisnes objects, they alone do not provide any means to manipuate (process) its content. A method is simply a function that provides means to process the data mopdel strucrues and are attached to the data model
+While data models define data structures and provide the information about the business objects, they alone do not provide any means to manipuate (process) its content. A method is simply a function that provides means to process the data model structures and are attached to the data model
 
 ```js
 
