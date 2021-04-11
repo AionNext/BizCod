@@ -32,3 +32,4 @@ When the body is not provided, the function is called `abstract`. Similar to dat
     function calculateMortgageAmortizationSchedule(Mortgage,MortgageScheme) -> MortgageAmortizationSchedule
 ```
 
+This function does not define the body and, therefore, it is abstract. Abstract functions cannot be executed becuse they do not have the body of processing. What is the purpose of body-less functions?
