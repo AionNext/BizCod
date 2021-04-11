@@ -15,5 +15,5 @@ Here is a glossary of terms that are used throughout this documentation
 | instruction                    | command to perform certain operation          | 
 | procedure                      | detached construct that represents a block of instructions. Procedure accepts a list of arguments that can be empty        | 
 | property                       | data property is a data element that has a name and associated value. Te name does not need to be unique                   |
-| type                           | data representation such as Text, Number, Decimal, Data and so on                 |
+| type                           | data or function representation               |
 | user defined types             | data model (data class) defined by the user                  |
