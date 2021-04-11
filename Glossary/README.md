@@ -1,6 +1,6 @@
 # BizCod Glossary 
 
-
+Here is a glossary of terms that are used throughout this documentation
 
 | term                           | description   |
 |--------------------------------|------------------------------------------------------------------------|
