@@ -109,11 +109,11 @@ In addition, inheritance mechanism provides a convenient way to redefine the alr
 define model InterestBearingAccount is SavingsAccount
 ```
 
-here, `InterestBearingAccount` is **the same as** `SavingsAccount`
+here, `InterestBearingAccount` is **the same as** `SavingsAccount` and can be used interchangeably.
 
 ## Multiple inheritance conflict
 
-Multiple inheritance represents a powerful way to reuse already defined data elemenst and relieves the programmer from mandate task of redefining the same data elements (properties) over and over. While being very powerful, multiple inrheritance might lead to unresolved problems where the same data element (property is redefined multiple times (at least twice) with different data types. 
+Multiple inheritance represents a powerful way to reuse the already defined data elemenst and relieves the programmer from mandate task of redefining the same data elements (properties) over and over. While being very powerful, multiple inheritance might lead to unresolved problems where the same data element (property) is redefined multiple times (at least twice) in the parent classes (models). 
 
 Consider these two definitions 
 
@@ -134,7 +134,7 @@ define
 
 When BizCod processes data model defintions that define inheritance it attempts to resolve the inheritance. What it means is that it applies multpiple inheritance consitency rules in order to resolve data model inheritance. When these rules fail, it generates an error and invalidates the entire program.
 
-Therefore, the followig definition would not be able to resolve because the property `id` is defined twice with different data types (ID and Number respectively)
+The followig definition would not be able to resolve because the property `id` is defined with different data types (ID in Account and Number in InterestAccount) in the parent classes:
 
 ```js
 define model SavingsAccount is Account, InterestAccount
