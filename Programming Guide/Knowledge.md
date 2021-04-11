@@ -17,8 +17,6 @@ BizCod programming language provides a powerful mechanism to capture and represe
       
         asdsadasdsad(asdasdsad, asdsadasda, asdasdsad
         
-      
-    
 ```
 
 
@@ -36,11 +34,10 @@ BizCod programming language provides a powerful mechanism to capture and represe
 ```js
   define 
     ruleset asdasdasdsad
-      facts asdsadsad(asdsad, asdsadsad,asdsad,asdasdsad
+      facts 
+        asdsad, asdsadsad, asdsad, asdasdsad
       rules 
         asdsadsad(asdsad, asdsad, asdsad)
         aSDSADSADSAD(ASDSAD,ASDSADASD)
-        
-      
       
 ```
