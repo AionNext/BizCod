@@ -40,6 +40,9 @@ and now, let's define a method that will identify the part condition. Specifical
 
 
 ## Class vs Instance methods
+
+As mentioned previously, data model (class) is an absract definition for the purpose of providing a structure to create concrete instances of thae data model (class). Therefore, there are two types of class methods being class or instance method. 
+A **class method** is defined on the data model itself and does not rely on any concrete instance to operate on. Conversely, an **instance** method operates on an instance and it requires a specific instance to operate on.
 ____________________
 2022 AionNEXT Corporation<br>
 we build soft and you build app | <b>soft4app</b>
