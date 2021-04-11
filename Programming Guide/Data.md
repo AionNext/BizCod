@@ -162,6 +162,8 @@ define
 
 Here, a method `isCommercialAccount` is defined on data model `Account` and accepts argument `type` (Text) and returns logical value.
 
+Methods are simpley [functions](#the-data) 
+
 
 # Data domain
 
