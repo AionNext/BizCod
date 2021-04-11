@@ -46,6 +46,17 @@ As mentioned previously, data model (class) is an abstract definition for the pu
 A **class method** is defined on the data model itself and does not rely on any concrete instance to operate on. Conversely, an **instance** method operates on an instance and it requires a specific instance to operate on.
 
 BizCod uses very subtle notation to differentiate between class and instance methods. A single colon `:` indicates instance method and double colon `::` indicates class method. 
+
+The method `isNew` defined before is an instance method. Here is an example of a class method 
+
+```js
+    define 
+        method Part::create() -> Part
+            set i to instance of Part
+            return i
+```
+
+This trivial class method defined on the model `Part` simply create an instance of itself.
 ____________________
 2022 AionNEXT Corporation<br>
 we build soft and you build app | <b>soft4app</b>
