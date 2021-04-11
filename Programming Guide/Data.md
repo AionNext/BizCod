@@ -143,7 +143,15 @@ define method
 
 # Data domain
 
-once the data models are defined they can be grouped into coherent set of data models called object domain. A domain is a collection of data models that
+once the data models are defined they can be grouped into coherent set of data models called object domain. A domain is a collection of data models that provide another form of abstraction to operate at the data model groups and capture the dependencies between the data models. Here are the building block of data domains
+
+| element                           | description   |
+|--------------------------------|------------------------------------------------------------------------|
+| models                        |  data models that belong to the data domain                    |
+| arrows                    | the transformations (mapping) between the models                                          | 
+| relations                     | the relations between the data models in the domain                                        | 
+| associations                     | decimal data that are desiged to store decimal numbers such as 213213.45 , -24324.67                                          | 
+
 
 - models
 - arrows
