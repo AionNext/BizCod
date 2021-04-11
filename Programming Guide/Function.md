@@ -20,5 +20,9 @@ define function <name>([<args>]) [ ->  variable [Type] ]
 
 
 where arguments, and body can be optional. 
-When the body is not privided, thefunction is called `abstract`
+
+
+## Functional abstraction
+
+When the body is not provided, the function is called `abstract`. Similar to data models, functions are objects as well and therefore can be subjected to the inheritance mechanism. 
 
