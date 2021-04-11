@@ -30,7 +30,7 @@ By definition, a data element stores a value and its value is always known regar
 > Essentially, facts are data elements but they might (or might not) hold a value and its knowability factor might be programmatically changed between KNOWN and UNKNOWN. Their default knowability factor is UNKNOWN. Once the value is assigned to a fact it becomes known.
 > 
 
-In bizCod, facts are defined by the keyword `fact`.
+In BizCod, facts are defined by the keyword `fact`.
 
 ```js
     fact creditScore Text
