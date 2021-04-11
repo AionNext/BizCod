@@ -31,7 +31,7 @@ and now, let's define a method that will identify the part condition. Specifical
 
 ```js
     define 
-        method Part::isNew() -> Logical
+        method Part:isNew() -> Logical
             if (Part.condition = 'NEW') then 
                 return true
             end       
