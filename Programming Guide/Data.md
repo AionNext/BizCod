@@ -2,8 +2,12 @@
 
 # BizCod Data
 
-A data element is a container that stores the information. This information can take different forms (or be of certain types). For example it can store text, number or date. The data elements can be grouped together to form a coherent unit of information. 
-This unit is called a class of data and the data elements that form this unit are called properties. Therefore, a class is a collection (grouping) of data properties.
+
+
+A data element (datum) is a container that holds (stores) a value. This value can take different form. This data form (or representation) is called a type or more specifically a data type. Furthermore, each data element has its associated name and type.
+
+For example it can store text, number or date. The data elements can be grouped together to form a coherent unit of information. 
+This unit is called a class of data (or model) and the data elements that form this unit are called properties. Therefore, a class is a collection (grouping) of data properties.
 
 ## Primitive data types
 
