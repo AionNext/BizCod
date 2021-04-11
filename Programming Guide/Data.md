@@ -149,7 +149,7 @@ This definition is invalid and BizCod will not be able to resolve it.
 
 While data models define data structures and provide the information about the business objects, they alone do not provide any means to manipuate (process) its content. A method is simply a function that provides means to process the data model structures and are attached to the data model
 
-Since it is a separate topic, refer to [method](Method.md) for more information about data model methods.
+Since it is a separate topic, refer to ![method](Method.md) for more information about data model methods.
 
 
 # Data domain
