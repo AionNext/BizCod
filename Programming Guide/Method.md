@@ -39,7 +39,7 @@ and now, let's define a method that will identify the part condition. Specifical
 ```
 
 
-
+## Class vs Instance methods
 ____________________
 2022 AionNEXT Corporation<br>
 we build soft and you build app | <b>soft4app</b>
