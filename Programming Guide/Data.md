@@ -113,7 +113,7 @@ here, `InterestBearingAccount` is **the same as** `SavingsAccount` and can be us
 
 ## Multiple inheritance conflict
 
-Multiple inheritance represents a powerful way to reuse the already defined data elemenst and relieves the programmer from mandate task of redefining the same data elements (properties) over and over. While being very powerful, multiple inheritance might lead to unresolved problems where the same data element (property) is redefined multiple times (at least twice) in the parent classes (models). 
+Multiple inheritance represents a powerful way to reuse the already defined data elemenst and relieves the programmer from mandate task of redefining the same data elements (properties) over and over. While being very powerful, multiple inheritance might lead to unresolved problems where the same data element (property) is redefined multiple times (at least twice) with different data types in the parent classes (models) . 
 
 Consider these two definitions 
 
