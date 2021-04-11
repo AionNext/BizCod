@@ -12,9 +12,8 @@ define
 
 ```
 
-Here, a method `isCommercialAccount` is defined on data model `Account` and accepts argument `type` (Text) and returns logical value.
+A method is defined on the data model `<data-model>`and it has to have a name `<method-name>`. It can accept the arguments `<args>` (which are optional) and might or might not return a value `[ -> variable Type]`. In addition, it has to have a body `<method-body>`. 
 
-Methods are simply [functions](Function.md) defined on the data model to process the data model content. here is a practical illustration of that concept:
 
 ```js
     define Account:init(name Text, ssn Text, )  
