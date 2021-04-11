@@ -26,7 +26,7 @@ Note that this table provides a partial list of data types only.
 
 ## Facts
 
-By definition, a data element stores a value and its value is always known regardless of what it is. In BizCod, it means that its `knowability factor` is always `KNOWN`. While this is always true for regular data elements, it is notalyaws true for special BizCod data elements called `facts`.
+By definition, a data element stores a value and its value is always known regardless of what it is. In BizCod, it means that its `knowability factor` is always `KNOWN`. While this is always true for regular data elements, it is not always true for special BizCod data elements called `facts`. Facts are data elements but they might or might not hold a value. Its knowability factor is either `KNOWN` or `UNKNOWN`. There is a compelling reason for that kind of feature that applies specifically for Knowledge elements that will explain later 
 
 
 ## Data model
