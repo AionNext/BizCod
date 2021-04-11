@@ -10,7 +10,7 @@ Function has the following properties
 - returning type
 - body
 
-The following represents a formal function definition
+The following statement represents a formal function definition
 
 ```js
 define function <name>([<args>]) [ ->  variable [Type] ] 
