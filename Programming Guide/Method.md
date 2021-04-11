@@ -1,13 +1,14 @@
 # BizCod Methods
 
+Data model defines a data structure in terms of properties. However, the properties alone do not provide any means of processing the content of the data model. Methods are simply functions that are defined on a data model for the purpose of processing the data model content. A data model can have unlimited number of methods defined (or attached to it). Methods provide very practical and convenient ways to define functionalities proper to the data model they are defined on.
+
+Her is a formal definition of a method.
+
 ```js
 
 define 
-    method Account::isCommercialAccount(type Text) -> boolean 
-        if (Account.type = type) then
-            return true
-        end
-        return false
+    method <data-model>::<method-name>([<args>]) [ -> variable Type] 
+        <method-body>
 
 ```
 
