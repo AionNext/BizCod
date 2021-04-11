@@ -13,7 +13,7 @@ Function has the following properties
 The following statement represents a formal function definition
 
 ```js
-define function <name>([<args>]) [ ->  variable [Type] ] 
+define function <name>([<args>])  ->  variable [Type] 
 
   [<body>]
 ```
