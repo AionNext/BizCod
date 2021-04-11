@@ -62,9 +62,9 @@ The data model defines the data structure that serves as a bluprint to create a 
 
 ## Inheritance
 
-In BizCod, data models can be 'composed' using already defined data. This is very useful, when some data models share common properties. In order to alleviate the problem of redefinig the same data mode segments number of times, BizCod provides a mechanism to inherit these alraedy defined data models in other data structures. This mechanism is called inheritance where one data model inherits properties from another data model. This two data models are in subclass relationship where the data model that inreits the property from the parent class is called a subclass of that parent class. 
+In BizCod, data models can be 'composed' using already defined data. This is very useful when some data models share common properties. In order to alleviate the problem of redefining the same data segments number of times, BizCod provides a mechanism to inherit these already defined data models in other data structures. This mechanism is called inheritance where one data model inherits properties from another data model. This two data models are in subclass relationship where a data model that inherits properties from the parent class is called a subclass of that parent class. 
 
-Let's illustrate this very simple concept. Let's define an account type **SavingsAccont** which is an account with additional property `interestRate`. Here we can define this account
+Let's illustrate this very simple concept by defining an account type **SavingsAccont** which is an account with additional property `interestRate`. Here we can define this account as follows
 
 ```js
 define model InterestAccount
@@ -75,7 +75,7 @@ define model InterestAccount
 ;
 ```
 
-`Investment Account` shares three properties with already defined data model `Account`. This data model can be redfined using inheritance mechanism to inherit these 3 properties from data model `Account`. 
+`Investment Account` shares three properties with already defined data model `Account`. This data model can be redefined using inheritance mechanism to inherit these 3 properties from `Account` data model . 
 
 ```js
 define model InterestAccount is Account
@@ -103,17 +103,19 @@ define model SavingsAccount
 ;
 ```
 
-In addition, inheritance mechanism provides a convenient way to redefine already defined data models that might otherwise be known bo ther names.
+In addition, inheritance mechanism provides a convenient way to redefine the already defined data models that might otherwise be known by other names.
 
 ```js
 define model InterestBearingAccount is SavingsAccount
 ```
 
+here, `InterestBearingAccount` is **the same as** `SavingsAccount`
+
 ## Multiple inheritance conflict
 
 Multiple inheritance represents a powerful way to reuse already defined data elemenst and relieves the programmer from mandate task of redefining the same data elements (properties) over and over. While being very powerful, multiple inrheritance might lead to unresolved problems where the same data element (property is redefined multiple times (at least twice) with different data types. 
 
-Conside these two definitions 
+Consider these two definitions 
 
 ```js
 define 
