@@ -27,6 +27,13 @@ Let's provide a pract1ical example of method definition. For this purpose, let's
             condition      
 ```
 
+and now, let's define a method that will identify the part condition. Specifically, we are interested whether or not the part is new or used. Let's define a method that will provide that information
+
+```js
+    define 
+        method Part::isNew() -> 
+            
+```
 
 ____________________
 2022 AionNEXT Corporation<br>
