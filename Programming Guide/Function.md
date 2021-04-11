@@ -1,16 +1,16 @@
 # BizCod Function
 
 
-What is a function and what purpose does it serve? In BizCod programming paradigm, the objective of function is to produce results by processing the input data called arguments. 
-While procedure processes the data as well, it is fundamentally different from function because it does not produce results. 
+What is a function and what purpose does it serve? While procedure processes the data as well, it is fundamentally different from function because it does not produce results. In BizCod programming paradigm, the objective of function is to produce results by processing the input data called `arguments`. The result is called a `returning value`. 
 
-From conceptual standpoint, procedural logic is a set of instructions that the programmer can use (group) to process the data. Since these instructions perform different functions, they are of different types. Here are the basi types:
+Function has the following properties
+
 - name
 - arguments
 - returning type
 - body
 
-The folliwng represents a formal function definition
+The following represents a formal function definition
 
 ```js
 define function <name>([<args>]) [ ->  variable [Type] ] 
@@ -19,4 +19,6 @@ define function <name>([<args>]) [ ->  variable [Type] ]
 ```
 
 
-where arguments,  and body can be optional
+where arguments, and body can be optional. 
+When the body is not privided, thefunction is called `abstract`
+
