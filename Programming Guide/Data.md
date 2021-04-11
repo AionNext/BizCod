@@ -45,7 +45,7 @@ The data model defines the data structure that serves as a bluprint to create a 
 ## Inheritance
 
 In BizCod, data models can be 'composed' using already defined data. This is very useful, when some data models share common properties. In order to alleviate the problme of redefinig the same data mode segments number of times, BizCod provides a mechanism to inherit these alraedy defined data models in other data structures. This mechanism is called inheritance where one data model inherits properties from another data model. This two data models are in subclass relationship where the data model that inreits the property from the parent class is called a subclass of that parent class. 
-Let's illustartes this very simpel concept 
+Let's illustrate this very simple concept 
 
 Let's define an account type **SavingsAccont** which is an account with additional property `interestRate`. Here we can define this account
 
