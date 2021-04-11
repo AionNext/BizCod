@@ -21,3 +21,8 @@ Methods are simply [functions](Function.md) defined on the data model to process
         
     
 ```
+
+
+____________________
+2022 AionNEXT Corporation<br>
+we build soft and you build app | <b>soft4app</b>
