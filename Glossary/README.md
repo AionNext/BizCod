@@ -9,4 +9,5 @@
 | method                     | a function that is attached to a data model and provides processing capabilities to process data model content. There are two types of methods being class and instance methods. Class method operates on a data model and instance method operates on a class instance      | 
 | function                     | and transformation that accepts a list of arguments and returns a value. canonical f:x -> y                                        | 
 | instance                     | a concrete manifestation of a class or function                                      | 
+| instruction                     | a command to perform certain operation                                      | 
 | procedure                     | a detached construct that represents a block of instructions. Procedure accepts a list of arguments that can be empty                                   | 
