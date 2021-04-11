@@ -6,8 +6,7 @@
 
 A data element (datum) is a container that holds (stores) a value. This value can take different form. This data form (or representation) is called a type or more specifically a data type. Furthermore, each data element has its associated name and type.
 
-For example, data element can store text, number or date. The data elements can be grouped together to form a coherent unit of information. 
-This unit is called a class of data (or model) and the data elements that form this unit are called properties. Therefore, a class is a collection (grouping) of data properties.
+For example, data element can store text, number or date. 
 
 ## Primitive data types
 
@@ -41,10 +40,10 @@ here, the fact **creditscore** is of type `Text` and its defaut value is `UNKNWO
 
 ## Data model
 
+Data elements can be grouped together to form a coherent unit of information. This unit is called a class of data (or model) and the data elements that form this unit are called properties. Therefore, a class is a collection (grouping) of data properties. That class of data is a data type as well. Therefore, in addition to primitive data types, a user can define its own data types by defining classes of data (models)
+
 Moving forward, let's provide a practical application of BizCod data model. We will use the Banking system to define the data model. 
 Here we will define a Account class to hold the basic information about the account
-
-
 
 
 ```js
