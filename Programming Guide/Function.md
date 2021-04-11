@@ -26,3 +26,9 @@ where arguments, and body can be optional.
 
 When the body is not provided, the function is called `abstract`. Similar to data models, functions are objects as well and therefore can be subjected to the inheritance mechanism. 
 
+```js
+
+  define
+    function calculate MortgageAmortizationSchedule(mortgae Mortgae, MortgageScheme) -> MprtgageAmortizationSchedule
+```
+
