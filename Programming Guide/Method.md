@@ -14,11 +14,17 @@ define
 
 A method is defined on the data model `<data-model>`and it has to have a name `<method-name>`. It can accept the arguments `<args>` (which are optional) and might or might not return a value `[ -> variable Type]`. In addition, it has to have a body `<method-body>`. 
 
+Let's provide a pract1ical example of method definition. For this purpose, let's define the following data model
 
 ```js
-    define Account:init(name Text, ssn Text, )  
-        
-    
+    define
+        model Part
+            id Id, 
+            manufacturer, 
+            available Text, 
+            type, 
+            location, 
+            condition      
 ```
 
 
