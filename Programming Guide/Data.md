@@ -24,6 +24,10 @@ As mentioned previously, the data properties are typed to represent different fo
 
 Note that this table provides a partial list of data types only. 
 
+## Facts
+
+By definition, a data element stores a value and its value is always know regardless of what it is. In BizCod, its `knowability factor` is always `KNOWN`.
+
 ## Data model
 
 Moving forward, let's provide a practical application of BizCod data model. We will use the Banking system to define the data model. 
