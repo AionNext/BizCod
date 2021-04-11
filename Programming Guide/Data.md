@@ -35,7 +35,7 @@ In BizCod, facts are defined by the keyword `fact`.
     fact creditScore Text
 ```
 
-here, the fact **creditscore** is of type `Text` and its defaut value is `UNKNWOWN`.
+here, the fact **creditScore** is of type `Text` and its defaut value is `UNKNWOWN`.
 
 
 ## Data model
