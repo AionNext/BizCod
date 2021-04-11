@@ -150,7 +150,7 @@ once the data models are defined they can be grouped into coherent set of data m
 | models                        |  data models that belong to the data domain                    |
 | arrows                    | the transformations (mapping) between the models                                          | 
 | relations                     | the relations between the data models in the domain                                        | 
-| associations                     | decimal data that are desiged to store decimal numbers such as 213213.45 , -24324.67                                          | 
+| associations                     | the associations between the data models in the domain                                        | 
 
 
 - models
