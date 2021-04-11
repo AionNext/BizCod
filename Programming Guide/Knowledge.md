@@ -20,3 +20,27 @@ BizCod programming language provides a powerful mechanism to capture and represe
       
     
 ```
+
+
+```js
+  define 
+    rule asdasdsad(asdsad, asdsadsad, asdsadsa,asdasdas) 
+      condition
+        asdasd.asdsad > asdasdsad.asdsad or sadsadsad. asdasd = "123123123asdas" 
+        
+      action
+        asdsadsad.asdasdsa = 12321.23432
+      
+```
+
+```js
+  define 
+    ruleset asdasdasdsad
+      facts asdsadsad(asdsad, asdsadsad,asdsad,asdasdsad
+      rules 
+        asdsadsad(asdsad, asdsad, asdsad)
+        aSDSADSADSAD(ASDSAD,ASDSADASD)
+        
+      
+      
+```
