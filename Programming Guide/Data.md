@@ -149,26 +149,7 @@ This definition is invalid and BizCod will not be able to resolve it.
 
 While data models define data structures and provide the information about the business objects, they alone do not provide any means to manipuate (process) its content. A method is simply a function that provides means to process the data model structures and are attached to the data model
 
-```js
-
-define 
-    method Account::isCommercialAccount(type Text) -> boolean 
-        if (Account.type = type) then
-            return true
-        end
-        return false
-
-```
-
-Here, a method `isCommercialAccount` is defined on data model `Account` and accepts argument `type` (Text) and returns logical value.
-
-Methods are simply [functions](Function.md) defined on the data model to process the data model content. here is a practical illustration of that concept:
-
-```js
-    define Account:init(name Text, ssn Text, )  
-        
-    
-```
+Since it is a separate topic, refer to [method](Method.md) for more information about data model methods.
 
 
 # Data domain
