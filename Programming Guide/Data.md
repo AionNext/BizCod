@@ -153,11 +153,6 @@ once the data models are defined they can be grouped into coherent set of data m
 | associations                     | the associations between the data models in the domain                                        | 
 
 
-- models
-- arrows
-- relations
-- associations
-
 
 ```js
     define domain BankingDomain {
