@@ -4,8 +4,10 @@
 The objective of BizCod procedural logic is to provide means to process the data. Once the data are defined, they can be processed in order to produce information or to generate other types of data.
 
 From conceptual standpoint, procedural logic is a set of instructions that the programmer can use (group) to process the data. Since these instructions perform different functions, they are of different types. Here are the basi types:
-- assignment instructions
-- conditional instructions
+- assignment instruction
+- class instantiation instruction
+- conditional instruction
+- repetition instruction
 - procedure invocation instructions
 
 # Assignment instruction
@@ -81,7 +83,7 @@ Logical condition is a logical expression that evaluautes to either `true` or `f
 
 # Repetition instruction
 
-Repetition is a special kind of conditional instruction. The purpose of repetition is to execute a block of code as long as the condition remains satisfied (or met, or true).
+Repetition is a special kind of conditional instruction. The purpose of repetition is to execute a block of code in a loop as long as the condition remains satisfied (or met, or true).
 
 
 ```js
