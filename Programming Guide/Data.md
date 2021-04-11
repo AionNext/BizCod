@@ -122,7 +122,7 @@ define model SavingsAccount is Account, InterestAccount
 ;
 ```
 
-This definition is invalid and BizCod will nopt be able to resolve it.
+This definition is invalid and BizCod will not be able to resolve it.
 
 
 # Methods
