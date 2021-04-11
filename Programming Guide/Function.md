@@ -29,6 +29,6 @@ When the body is not provided, the function is called `abstract`. Similar to dat
 ```js
 
   define
-    function calculateMortgageAmortizationSchedule(Mortgage,MortgageScheme) -> MprtgageAmortizationSchedule
+    function calculateMortgageAmortizationSchedule(Mortgage,MortgageScheme) -> MortgageAmortizationSchedule
 ```
 
