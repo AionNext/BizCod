@@ -162,7 +162,13 @@ define
 
 Here, a method `isCommercialAccount` is defined on data model `Account` and accepts argument `type` (Text) and returns logical value.
 
-Methods are simpley [functions](Function.md)  that 
+Methods are simply [functions](Function.md) defined on the data model to process the data model content. here isa practical illustration of that concept:
+
+```js
+    define Account:init(name Text, ssn Text, )  
+        
+    
+```
 
 
 # Data domain
