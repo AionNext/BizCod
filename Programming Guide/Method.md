@@ -35,8 +35,10 @@ and now, let's define a method that will identify the part condition. Specifical
             if (Part.condition = 'NEW') then 
                 return true
             end       
-            
+            return false            
 ```
+
+
 
 ____________________
 2022 AionNEXT Corporation<br>
