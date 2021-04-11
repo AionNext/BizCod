@@ -2,6 +2,8 @@
 
 Here is a glossary of terms that are used throughout this documentation
 
+
+
 | term                           | description   |
 |--------------------------------|------------------------------------------------------------------------|
 | property                           | data property is a data element that has a name and associated value. Te name does not need to be unique                   |
