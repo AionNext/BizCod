@@ -36,17 +36,18 @@ define model Account
 ;
 ```
 In simple terms, this BzCod statement translates into :
-> define a data model (class) Account that has id , name and account type properties. These properties are of different types (ID, Text and Text respectively) to represent  different forms of data.
+> define a data model (class) Account with the following properties id, name and account. These properties are of different types (ID, Text and Text respectively) to represent  different forms of data.
 > 
 ## Instantiation
 
-The data model defines the data structure that serves a bluprint to create a concrete data called instances. The instantiation is a process of creating a concrete instances of the abstract data model.
+The data model defines the data structure that serves as a bluprint to create a concrete data called instances. The instantiation is a process of creating a concrete instances of an abstract data model.
 
 ## Inheritance
 
-In BizCod data models can be 'composed' using already defined data. This is very useful, when some data models sher common properties. In order to alleviate the problme of redefing the sam edata mode segment numbe rof times, BizCod provides a mechanis to inherit these alraedy define datas models in other data structure. This mechanism is called inheritance where one data model inherits properties from another inrehited data model. This two data models are in subclass relationship where the data model that inreits the property from the parent class is called subclass of that parent class. Let's illustartes this very simpel concept 
+In BizCod, data models can be 'composed' using already defined data. This is very useful, when some data models share common properties. In order to alleviate the problme of redefinig the same data mode segments number of times, BizCod provides a mechanism to inherit these alraedy defined data models in other data structures. This mechanism is called inheritance where one data model inherits properties from another data model. This two data models are in subclass relationship where the data model that inreits the property from the parent class is called a subclass of that parent class. 
+Let's illustartes this very simpel concept 
 
-Let's define an accoun type **SavingsAccont** which is an account with additional property `interestRate`. Here we can this account
+Let's define an account type **SavingsAccont** which is an account with additional property `interestRate`. Here we can define this account
 
 ```js
 define model InterestAccount
