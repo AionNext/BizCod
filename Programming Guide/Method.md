@@ -7,7 +7,7 @@ Here is a formal definition of a method.
 ```js
 
 define 
-    method <data-model>::<method-name>([<args>]) [ -> variable Type] 
+    method <data-model>::<method-name>([<args>]) [ -> [variable] Type] 
         <method-body>
 
 ```
