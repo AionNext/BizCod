@@ -4,21 +4,6 @@ BizCod programming language provides a powerful mechanism to capture and represe
 
 ## Knowledge Base
 
-```js
-
-  define 
-    knowledge-base FraudDetectionRules
-      facts 
-        asdasdsad Asadsad,  
-        asdsadasda Hasdsadsad, 
-        asdasdsad Adsafdsfdsfdsf
-        
-      rules 
-      
-        asdsadasdsad(asdasdsad, asdsadasda, asdasdsad
-        
-```
-
 
 ```js
   define 
@@ -40,4 +25,19 @@ BizCod programming language provides a powerful mechanism to capture and represe
         asdsadsad(asdsad, asdsad, asdsad)
         aSDSADSADSAD(ASDSAD,ASDSADASD)
       
+```
+
+```js
+
+  define 
+    knowledge-base FraudDetectionRules
+      facts 
+        asdasdsad Asadsad,  
+        asdsadasda Hasdsadsad, 
+        asdasdsad Adsafdsfdsfdsf
+        
+      rules 
+      
+        asdsadasdsad(asdasdsad, asdsadasda, asdasdsad
+        
 ```
