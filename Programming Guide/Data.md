@@ -52,6 +52,10 @@ define model Account
     fact name Text,
     accountType Text    
 ;
+
+
+
+    name = 'Virginia Morla'
 ```
 In simple terms, this BzCod statement translates into :
 > define a data model (class) Account with the following properties id, name and account. These properties are of different types (ID, Text and Text respectively) to represent  different forms of data.
