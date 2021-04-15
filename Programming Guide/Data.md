@@ -18,7 +18,7 @@ As mentioned previously, the data properties are typed to represent different fo
 | Text                    | textual data to store the text such as 'John Roberts' 'commercial account' and so on                                          | 
 | Number                     | number to store numbers such as 100, 3000. The number can be either positive or negative                                        | 
 | Decimal                     | decimal data that are desiged to store decimal numbers such as 213213.45 , -24324.67                                          | 
-| Date                     | to store then date                                      | 
+| Date                     | to store the date                                      | 
 | Logical                     | logical type that can be either <b>true</b> or <b>false</b>                                        | 
 
 Note that this table provides a partial list of data types only. 
