@@ -49,13 +49,9 @@ Here we will define a Account class to hold the basic information about the acco
 ```js
 define model Account
     id ID,
-    fact name Text,
+    name Text,
     accountType Text    
-;
-
-
-
-    name = 'Virginia Morla'
+;  
 ```
 In simple terms, this BzCod statement translates into :
 > define a data model (class) Account with the following properties id, name and account. These properties are of different types (ID, Text and Text respectively) to represent  different forms of data.
