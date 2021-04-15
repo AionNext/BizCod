@@ -49,7 +49,7 @@ Here we will define a Account class to hold the basic information about the acco
 ```js
 define model Account
     id ID,
-    name Text,
+    fact name Text,
     accountType Text    
 ;
 ```
