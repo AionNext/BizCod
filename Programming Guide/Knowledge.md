@@ -72,3 +72,18 @@ This rules captures business knowledge about the customer's status.
         asdsadasdsad(asdasdsad, asdsadasda, asdasdsad
         
 ```
+
+When knowedge bases are indedependent and they can be excuted at the same time because their excutions are not dependent on each other. BizCod privides means to execute them in parallel
+
+
+```js
+
+  define knowledge-base 
+    ParallelKB (data1 Data1, data2 Data2, data3 Data3, data4 Data4) 
+        kb1(data1, data2, data3) 
+        kb2(data3, data4)
+        kb4(data1, data2, data3, data4       
+        
+```
+
+
