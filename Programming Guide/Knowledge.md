@@ -2,6 +2,24 @@
 
 BizCod programming language provides a powerful mechanism to capture and represent business knowledge. This representation comes in the form of Knowledge Base. Just like the data is captured in the data bases so is the knowledge captured in the knowledge base.
 
+
+
+## Rules
+
+Rule is a fundamental element of knowledge base. Rule processes the data and produce side-effects. Side efects are the results of rules applicationa to the data. 
+Here is a formal definition of a rule
+
+```js
+  define 
+    rule <rule-name"(<args>) 
+      condition
+        <logical-condition>
+        
+      action
+        <instructions-block>
+      
+```
+
 ## Knowledge Base
 
 
