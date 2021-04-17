@@ -31,7 +31,7 @@ Let's ullistrates this concept using the following example of asseinga customer'
         customer.status = 'EXCLUSIVE'  
 ```
 
-This rules capure business knowldge about the customer
+This rules captures business knowledge about the customer's status. 
 
 ## Knowledge Base
 
