@@ -19,6 +19,19 @@ Here is a formal definition of a rule
         <instructions-block>
       
 ```
+Let's ullistrates this concept using the following example of asseinga customer's status. Heer we will capture the business knowledge about customers status using rules 
+
+```js
+
+  define
+    rule customerStatus(customer Customer) 
+      condition
+        customer.income > 200000
+      action
+        customer.status = 'EXCLUSIVE'  
+```
+
+This rules capure business knowldge about the customer
 
 ## Knowledge Base
 
