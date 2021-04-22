@@ -7,6 +7,7 @@ From conceptual standpoint, procedural logic is a set of instructions that the p
 - assignment instruction
 - class instantiation instruction
 - conditional instruction
+- evaluation instruction
 - repetition instruction
 - procedure invocation instructions
 
