@@ -99,7 +99,7 @@ A procedure is a collection of instructions that are grouped into a coherent uni
 - output arguments
 - procedure body
 
-# Procedure call instruction
+# Procedure invocation (call) instruction
 
 A procedure call instruction is simnply invocation a define dprocedure with the respective argument list if defined. 
 
