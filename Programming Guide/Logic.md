@@ -179,6 +179,10 @@ This is how it works:
 - if there is a match, the associated block of code is executed
 - if there is no match, the default code block is executed.
 
+When BizCod reaches a break keyword, it breaks out of the switch block.
+This will stop the execution inside the switch block.
+It is not necessary to break the last case in a switch block. The block breaks (ends) there anyway.
+
 ____________________
 2021 AionNEXT Corporation<br>
 we build soft and you build app | <b>soft4app</b>
