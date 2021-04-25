@@ -6,8 +6,7 @@ What is a function and what purpose does it serve? While procedure processes the
 Function has the following properties
 
 - name
-- arguments
-- returning type
+- signature
 - body
 
 The following statement represents a formal function definition
