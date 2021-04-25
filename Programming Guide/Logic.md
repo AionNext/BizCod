@@ -11,6 +11,11 @@ From conceptual standpoint, procedural logic is a set of instructions that the p
 - repetition instruction
 - procedure invocation instructions
 
+and the following statements 
+- conditional statement
+- evaluation statement
+- switch statement
+- 
 # Assignment instruction
 
 Assignment instruction assigns value to a variable or property. There are two forms that can be used, being either:
