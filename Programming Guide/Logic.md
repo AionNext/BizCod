@@ -64,30 +64,6 @@ or, elternatively
 this instruction creates an instance of class `Account` and set the value of variable `account` to this instance
 
 
-
-# Conditional instruction
-
-The purpose of conditional instruction is to provide means to process a block of instructions based on certain conditions. If these conditions are met the block will be executed. If they are not met the block will not be executed. Optionally, conditional instruction can define the block of instructions that will be executed if the conditions are not met. 
-Here is a general format of conditional instruction
-
-
-
-```c
-  if <condition> then
-     <block>
-  else 
-     <block>
-  end 
-
-```
-
-
-## Logical condition 
-
-Logical condition is a logical expression that evaluautes to either `true` or `false`. BizCod 
-
-
-
 # Repetition instruction
 
 Repetition is a special kind of conditional instruction. The purpose of repetition is to execute a block of code in a loop as long as the condition remains satisfied (or met, or true).
@@ -126,6 +102,33 @@ or with the arguments
 ```js
   assessRisk(income, creditScore, outstandingDebt)
 ```
+
+
+
+# Statements 
+
+
+
+# Conditional statement
+
+The purpose of conditional instruction is to provide means to process a block of instructions based on certain conditions. If these conditions are met the block will be executed. If they are not met the block will not be executed. Optionally, conditional instruction can define the block of instructions that will be executed if the conditions are not met. 
+Here is a general format of conditional instruction
+
+
+
+```c
+  if <condition> then
+     <block>
+  else 
+     <block>
+  end 
+
+```
+
+
+## Logical condition 
+
+Logical condition is a logical expression that evaluautes to either `true` or `false`. BizCod 
 
 
 
