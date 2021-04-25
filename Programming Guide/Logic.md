@@ -130,6 +130,30 @@ Here is a general format of conditional instruction
 
 Logical condition is a logical expression that evaluautes to either `true` or `false`. BizCod 
 
+# Evaluate statement
+
+Use the evaluate statement to execute one or many code blocks depending on a logical condition
+
+
+```js
+evaluate 
+  <condition>
+     <block>
+    break;
+    
+  <sondition>
+    <block>
+    break;
+    
+  .....
+  
+    <sondition>
+    <block>
+    break;  
+
+}
+```
+
 
 # Switch statement
 Use the switch statement to select one of many code blocks to be executed.
