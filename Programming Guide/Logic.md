@@ -6,15 +6,13 @@ The objective of BizCod procedural logic is to provide means to process the data
 From conceptual standpoint, procedural logic is a set of instructions that the programmer can use (group) to process the data. Since these instructions perform different functions, they are of different types. Here are the basi types:
 - assignment instruction
 - class instantiation instruction
-- conditional instruction
-- evaluation instruction
-- repetition instruction
 - procedure invocation instructions
 
 and the following statements 
 - conditional statement
 - evaluation statement
 - switch statement
+- while statement
 
 
 # Assignment instruction
@@ -64,15 +62,6 @@ or, elternatively
 this instruction creates an instance of class `Account` and set the value of variable `account` to this instance
 
 
-# Repetition instruction
-
-Repetition is a special kind of conditional instruction. The purpose of repetition is to execute a block of code in a loop as long as the condition remains satisfied (or met, or true).
-
-
-```js
-  while  <condition> 
-     <block>
-```
 
 # Procedures
 
@@ -183,6 +172,16 @@ When BizCod reaches a break keyword, it breaks out of the switch block.
 This will stop the execution inside the switch block.
 It is not necessary to break the last case in a switch block. The block breaks (ends) there anyway.
 
+# Repetition statement
+
+Repetition is a special kind of conditional instruction. The purpose of repetition is to execute a block of code in a loop as long as the condition remains satisfied (or met, or true).
+The do...while statement creates a loop that executes a specified statement until the test condition evaluates to false. The condition is evaluated after executing the statement, resulting in the specified statement executing at least once.
+
+
+```js
+  while  <condition> 
+     <block>
+```
 ____________________
 2021 AionNEXT Corporation<br>
 we build soft and you build app | <b>soft4app</b>
