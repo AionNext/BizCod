@@ -23,7 +23,7 @@ where arguments, and body can be optional.
 
 ## Functional abstraction
 
-When the body is not provided, the function is considered to be `abstract`. Similar to data models, functions are objects as well and therefore can be subjected to inheritance. 
+When the body is not provided, the function is `abstract`. Similar to data models, functions are objects as well and therefore can be subjected to inheritance. 
 
 ```js
 
