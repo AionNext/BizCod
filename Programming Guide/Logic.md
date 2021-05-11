@@ -105,7 +105,7 @@ Here is a general format of conditional instruction
 
 
 
-```js
+```c
   if <condition> then
      <block>
   else 
@@ -113,6 +113,12 @@ Here is a general format of conditional instruction
   end 
 
 ```
+
+You use logical operations to conditionally execute your intended actions. This is the ‘then’ part of the if statement that specifies what should be done when the ‘if’ property is true.
+
+Here, you can use properties such as ‘pass value to trigger’, ‘next loop’, ‘comment’ and so on.
+
+Meanwhile, ‘else’ outlines what the computer should do when the ‘if’ property is false
 
 
 ## Logical condition 
