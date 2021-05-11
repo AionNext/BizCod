@@ -115,10 +115,17 @@ Here is a general format of conditional instruction
 ```
 
 You use logical operations to conditionally execute your intended actions. This is the ‘then’ part of the if statement that specifies what should be done when the ‘if’ property is true.
-
 Here, you can use properties such as ‘pass value to trigger’, ‘next loop’, ‘comment’ and so on.
-
 Meanwhile, ‘else’ outlines what the computer should do when the ‘if’ property is false
+
+Here is an example a simple conditional statement that performs an action if the condition evaluates to `true`
+
+```js
+
+ if (customerProdile.income => 200000) then
+   customerProfile.status = 'GOLD' 
+ end
+ ```
 
 
 ## Logical condition 
