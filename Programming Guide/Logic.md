@@ -127,7 +127,7 @@ Here is an example a simple conditional statement that performs an action if the
  end
  ```
  
- Here, this statement will set the `status` of `customerProfile' to `GOLD` if the income is al teast 200000. If the income is less than 200000 it will set the status to `GOLD`.
+ This statement will set the `status` of `customerProfile' to `GOLD` if the income is al teast 200000. If the income is less than 200000 it will set the status to `GOLD`.
 
 
 ## Logical condition 
