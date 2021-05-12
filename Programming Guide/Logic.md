@@ -251,14 +251,25 @@ In this example, switch statement translates day name from English to French.
 
 # Repetition statement
 
-Repetition is a special kind of conditional instruction. The purpose of repetition is to execute a block of code in a loop as long as the condition remains satisfied (or met, or true).
-The do...while statement creates a loop that executes a specified statement until the test condition evaluates to false. The condition is evaluated after executing the statement, resulting in the specified statement executing at least once.
+Repetition is a special kind of conditional statement. The purpose of repetition is to execute a block of code in a loop as long as the condition remains satisfied (or met, or true)
+The `while` statement creates a loop that executes a specified statement until the test condition evaluates to false. The condition is evaluated before executing the statement.
 
 
 ```js
   while  <condition> 
      <block>
 ```
+
+In the following example, the code in the loop will run, over and over again, as long as a variable (i) is less than 10:
+
+```js
+while (i < 10) {
+  text += "The number is " + i;
+  i++;
+}
+```
+
+
 ____________________
 2021 AionNEXT Corporation<br>
 we build soft and you build app | <b>soft4app</b>
