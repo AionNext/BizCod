@@ -143,7 +143,7 @@ Here is an example a simple conditional statement that performs an action if the
 
 # Evaluate statement
 
-Use the evaluate statement to execute one or many code blocks depending on a logical condition. 
+Use the evaluate statement to execute one or many code blocks depending on a logical condition. Evaluate statment is en extension of IF statement and provides better way to test for various conditions in one statement instead of compounding many if conditions. 
 
 
 ```js
@@ -161,6 +161,29 @@ evaluate
   <condition>
     <block>
     break;  
+}
+```
+
+To illustrate this mechanism, let's set up a credit rating depending on his credit score
+
+
+```js
+evaluate 
+  (credit.rating between 580, 669 )
+     credit.score = 'Fair'
+     break;
+    
+   (credit.rating between 670, 739 )
+     credit.score = 'Good'
+     break;
+     
+   (credit.rating between 740, 799 )
+     credit.score = 'Very Good'
+     break;
+    
+   (credit.rating between 800, 855 )
+     credit.score = 'Exceptional'
+     break; 
 }
 ```
 
