@@ -161,7 +161,7 @@ evaluate
   <condition>
     <block>
     break;  
-}
+end
 ```
 
 To illustrate this mechanism, let's set up a credit rating depending on his credit score
@@ -184,7 +184,7 @@ evaluate
    (credit.rating between 800, 855 )
      credit.score = 'Exceptional'
      break; 
-}
+end
 ```
 
 
