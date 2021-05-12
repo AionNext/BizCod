@@ -239,7 +239,7 @@ In this example, switch statement translates day name from English to French.
       break;
       
     case 'Friday':
-      jour = 'Lundi'
+      jour = 'Vendredi'
       break;
       
     case 'Sunday':
