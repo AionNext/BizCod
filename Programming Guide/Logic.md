@@ -128,7 +128,7 @@ Here is an example a simple conditional statement that performs an action if the
  ```
  
  This statement will set the `status` of `customerProfile` to `GOLD` if the income is al teast 200000.  
- In the folowing example, If statement will set the status to `REGULAR" if the income is less than 200000.
+ In the folowing example, If statement will set the status to `REGULAR` if the income is less than 200000.
  
 ```js
 
