@@ -127,8 +127,17 @@ Here is an example a simple conditional statement that performs an action if the
  end
  ```
  
- This statement will set the `status` of `customerProfile` to `GOLD` if the income is al teast 200000. If the income is less than 200000 it will set the status to `GOLD`.
+ This statement will set the `status` of `customerProfile` to `GOLD` if the income is al teast 200000.  
+ In the folowing example, If statement will set the status to `REGULAR" if the income is less than 200000.
+ 
+```js
 
+ if (customerProfile.income => 200000) then
+   customerProfile.status = 'GOLD' 
+ else 
+   customerProfile.status = 'REGULAR' 
+ end
+ ```
 
 ## Logical condition 
 
