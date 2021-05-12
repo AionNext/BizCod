@@ -196,10 +196,10 @@ Use the switch statement to select one of many code blocks to be executed.
 switch(expression) {
   case x:
     // code block
-    break;
+    break
   case y:
     // code block
-    break;
+    break
   default:
     // code block
 }
@@ -224,27 +224,27 @@ In this example, switch statement translates day name from English to French.
  
     case 'Monday':
       jour = 'Lundi'
-      break;
+      break
       
     case 'Tuesday':
       jour = 'Mardi'
-      break;
+      break
       
     case 'Wednesday':
       jour = 'Mercredi'
-      break;
+      break
       
     case 'Thursday':
       jour = 'Jeudi'
-      break;
+      break
       
     case 'Friday':
       jour = 'Vendredi'
-      break;
+      break
       
     case 'Sunday':
       jour = 'Dimanche'
-      break;
+      break
  
  end 
 ```
