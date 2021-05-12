@@ -216,6 +216,39 @@ When BizCod reaches a break keyword, it breaks out of the switch block.
 This will stop the execution inside the switch block.
 It is not necessary to break the last case in a switch block. The block breaks (ends) there anyway.
 
+In this example, switch statement translates day name from English to French. 
+
+```js
+
+ switch (day)
+ 
+    case 'Monday':
+      jour = 'Lundi'
+      break;
+      
+    case 'Tuesday':
+      jour = 'Mardi'
+      break;
+      
+    case 'Wednesday':
+      jour = 'Mercredi'
+      break;
+      
+    case 'Thursday':
+      jour = 'Jeudi'
+      break;
+      
+    case 'Friday':
+      jour = 'Lundi'
+      break;
+      
+    case 'Sunday':
+      jour = 'Dimanche'
+      break;
+ 
+ end 
+```
+
 # Repetition statement
 
 Repetition is a special kind of conditional instruction. The purpose of repetition is to execute a block of code in a loop as long as the condition remains satisfied (or met, or true).
