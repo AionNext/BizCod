@@ -139,31 +139,28 @@ Here is an example a simple conditional statement that performs an action if the
  end
  ```
 
-## Logical condition 
 
-Logical condition is a logical expression that evaluautes to either `true` or `false`. BizCod 
 
 # Evaluate statement
 
-Use the evaluate statement to execute one or many code blocks depending on a logical condition
+Use the evaluate statement to execute one or many code blocks depending on a logical condition. 
 
 
 ```js
 evaluate 
   <condition>
      <block>
-    break;
+     break;
     
-  <sondition>
-    <block>
-    break;
+  <condition>
+     <block>
+     break;
     
   .....
   
-    <sondition>
+  <condition>
     <block>
     break;  
-
 }
 ```
 
