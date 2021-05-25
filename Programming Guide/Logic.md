@@ -39,7 +39,7 @@ these two forms are equivalent.
 
 ## The deterministic factor
 
-While the assignments of values to data elements are always deterministic, the assignment of facts might not always be. Facts might or might not have values. Therefore, what will happen when we assign a fact to a data element when this fact does not have avalue (is `UNKNOWN`)? The problem is further compounded because a data element always has value. What will be a result of this assignment? 
+While the assignments of values to data elements are always deterministic, the assignment of facts might not always be. Facts might or might not have values at the time of the assignement. Therefore, what will happen when we assign a fact to a data element when this fact does not have avalue (is `UNKNOWN`)? The problem is further compounded because a data element always has value. What will be a result of this assignment? 
 
 BizCod implements a special value called `nil` to handle this situation. Consider the following assignment 
 
