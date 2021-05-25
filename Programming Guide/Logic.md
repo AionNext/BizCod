@@ -37,6 +37,10 @@ or, alternatively
 
 these two forms are equivalent.
 
+## The deterministic factor
+
+While the assignments of values to data elements are always deterministic, the assignment of fact might not always be. Facts might or might not have values. Therefore, what will happen when we assign a fact to a data element when this fact does not have avalue (is `UNKNOWN`)? The problem is further compounded because a data element always has value. 
+
 
 # Class instantiation instruction
 
