@@ -47,7 +47,7 @@ BizCod implements a special value called `nil` to handle this situation. Conside
   application.screditScore = score.creditScore
 ```
 
-where score.creditScore is a fact. 
+where `score.creditScore` is a fact. 
 
 If the value of `score.creditScore` is `750` the value of `application.screditScore` after this assignement will be `750`.
 
