@@ -13,7 +13,7 @@ once the data models are defined they can be grouped into coherent set of data m
 
 ## Domain definition
 
-You define a domain by listing the model definitions that are part of this dmoain. Here is a n example of a domain `BankingDomain` that contains 4 data models
+You define a domain by listing the model definitions that are part of this domain. Here is a n example of a domain `BankingDomain` that contains 4 data models
 
 ```js
     define domain BankingDomain {
