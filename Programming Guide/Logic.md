@@ -55,6 +55,12 @@ If the value of `score.creditScore` is `UNKNOWN` the value of `application.scred
 
 The value `nil` cannot be exlicitely assiged to either data element or a fact.
 
+## nil vs null
+
+What is a different betwen these two special values. The difference is fundamental. 
+
+BizCod uses `nil` is an illegitimate value to handle facts assignments to data elements when the facts are `UNKNOWN`. Since data elements must always have value. 
+On the other hand, `null` is a legitimate value that can be assigned to either data element or fact. It is a value like any other value.
 
 # Class instantiation instruction
 
