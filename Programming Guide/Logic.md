@@ -53,6 +53,8 @@ If the value of `score.creditScore` is `750` the value of `application.screditSc
 
 If the value of `score.creditScore` is `UNKNOWN` the value of `application.screditScore` after this assignement will be `nil'.
 
+The value `nil` cannot be assiged to either data element of a fact.
+
 
 # Class instantiation instruction
 
