@@ -53,7 +53,7 @@ If the value of `score.creditScore` is `750` the value of `application.screditSc
 
 If the value of `score.creditScore` is `UNKNOWN` the value of `application.screditScore` will be `nil' after this assignement .
 
-The value `nil` cannot be exlicitely assiged to either data element or a fact.
+The value `nil` cannot be excplicitely assiged to either data element or a fact.
 
 ## nil vs null
 
