@@ -49,11 +49,11 @@ BizCod implements a special value called `nil` to handle this situation. Conside
 
 where `score.creditScore` is a fact. 
 
-If the value of `score.creditScore` is `750` the value of `application.screditScore` after this assignement will be `750`.
+If the value of `score.creditScore` is `750` the value of `application.screditScore` will be `750` after this assignement.
 
-If the value of `score.creditScore` is `UNKNOWN` the value of `application.screditScore` after this assignement will be `nil'.
+If the value of `score.creditScore` is `UNKNOWN` the value of `application.screditScore` will be `nil' after this assignement .
 
-The value `nil` cannot be assiged to either data element or a fact.
+The value `nil` cannot be exlicitely assiged to either data element or a fact.
 
 
 # Class instantiation instruction
