@@ -41,14 +41,17 @@ these two forms are equivalent.
 
 While the assignments of values to data elements are always deterministic, the assignment of facts might not always be. Facts might or might not have values. Therefore, what will happen when we assign a fact to a data element when this fact does not have avalue (is `UNKNOWN`)? The problem is further compounded because a data element always has value. What will be a result of this assignment? 
 
-BizCod implements a special vale caled `nil` to handle this situation. Cosnider the following assignment 
+BizCod implements a special value called `nil` to handle this situation. Consider the following assignment 
 
 ```js
   application.screditScore = score.creditScore
 ```
 
 where score.creditScore is a fact. 
-If `score.creditScore` is `UNKNOWN' the value of `application.screditScore` after this assignemnt will ne `nil'.
+
+If `score.creditScore` is `750' the value of `application.screditScore` after this assignemnt will be `750'.
+
+If `score.creditScore` is `UNKNOWN' the value of `application.screditScore` after this assignemnt will be `nil'.
 
 
 # Class instantiation instruction
