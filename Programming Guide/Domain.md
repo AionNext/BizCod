@@ -11,6 +11,9 @@ once the data models are defined they can be grouped into coherent set of data m
 | associations                     | the associations between the data models in the domain                                        | 
 
 
+## Domain definition
+
+You define a domain by listing the model definitions. Heer is a n example of a domain `BankingDomain` that contains 4 data models
 
 ```js
     define domain BankingDomain {
