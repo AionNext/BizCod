@@ -58,8 +58,8 @@ The method `isNew` defined before is an instance method. Here is an example of a
 
 This trivial class method defined on the model `Part` simply creates an instance of `Part` data model (class).
 
-Class and instance methods serve different purposes. Class methods are defined on a class and therefore serves the purpose to provide the functionality that is in class scope. 
-On the other hand, instance methods require a class instance and their purpose is to operate on that instance alone. 
+Class and instance methods serve different purposes. **Class methods** are defined on a class, and therefore, serve the purpose to provide the functionality that is in class scope. 
+On the other hand, **instance methods** require a class instance and their purpose is to operate on that instance alone. 
 ____________________
 2022 AionNEXT Corporation<br>
 we build soft and you build app | <b>soft4app</b>
