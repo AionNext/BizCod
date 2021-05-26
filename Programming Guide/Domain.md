@@ -21,6 +21,9 @@ You define a domain by listing the model definitions that are part of this domai
 }
 ```
 
+## Arrow definition
+
+Arrow functions that operate on a set of class instances (objects). Just like the regular functions operat
 
 ```js
     define arrow <name>(<args>):A->B     
