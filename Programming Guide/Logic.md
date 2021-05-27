@@ -44,7 +44,7 @@ While the assignments of values to data elements are always deterministic, the a
 BizCod implements a special value called `nil` to handle this situation. Consider the following assignment 
 
 ```js
-  application.screditScore = score.creditScore
+  application.creditScore = score.creditScore
 ```
 
 where `score.creditScore` is a fact. 
