@@ -2,7 +2,9 @@
 # Data Domain
 
 once the data models are defined they can be grouped into coherent set of data models called object domain. A domain is a collection of data models that provide another form of abstraction to operate at the data model groups and capture the dependencies between the data models. In relational databases, data domain is referred to as data schema.
+
 Here are the building block of data domains
+
 
 | element                           | description   |
 |--------------------------------|------------------------------------------------------------------------|
