@@ -23,7 +23,7 @@ You define a domain by listing the model definitions that are part of this domai
 
 ## Arrow definition
 
-Arrow functions that operate on a set of class instances (objects). Just like the regular functions operat
+Arrow functions operate on a set of class instances (objects). Just like the regular functions operate on a set of objects, arrows take set of objects as arguments. In addition, arrows can accept parameters as well. Here is a general notation of an arrow. 
 
 ```js
     define arrow <name>(<args>):A->B     
