@@ -14,3 +14,4 @@ Dictionaries typically support different operations:
 - insert or update a value (typically, if the key does not exist in the dictionary, the key-value pair is inserted; if the key already exists, its corresponding value is overwritten with the new one)
 - remove a key-value pair
 - test for existence of a key
+- iteration over dictionary key/value pairs
