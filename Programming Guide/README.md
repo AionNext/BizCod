@@ -12,6 +12,7 @@ The porogramming foundation of the language has been based on the following conc
 * [Procedural Logic](Logic.md)
 * [Knowledge](#the-data)
 * [Services](#the-data)
+* [Coomunications Channels](#the-data)
 * [User Interface](#the-data)
 
 
