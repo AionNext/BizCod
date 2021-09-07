@@ -8,5 +8,6 @@ Abstract data Types (ADT) prvides convenient way to deal with specific data stru
 - Graph
 - List
 - Set
+- Dictionary
 
 
