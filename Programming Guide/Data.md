@@ -147,6 +147,8 @@ This definition is invalid and BizCod will not be able to resolve it.
 
 (MEP: How about including both with a message indicating the conflict? Maybe also the source(s) of the data element  - sometimes it can be hard to figure out where all the data elements are coming from when you need to make a change to one of them. Maybe an option to expand or contract the definition as needed to local only or inherited)
 
+(MS : It will be part of app analytics where this conflict will be reported. The point here is that the compiler is unable to resolve this conflict and the programmer would need to resolve it.)
+
 ```js
 define 
 model SavingsAccount inherits from Account, InterestAccount
