@@ -55,7 +55,8 @@ If the value of `score.creditScore` is `UNKNOWN` the value of `application.scred
 
 The value `nil` cannot be excplicitely assiged to either data element or a fact.
 
->>> add explanation of assigning fact to a fact
+> add explanation of assigning fact to a fact
+> 
 
 ## nil vs null
 
