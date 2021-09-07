@@ -190,7 +190,7 @@ evaluate
 end
 ```
 
-To illustrate this mechanism, let's set up a credit rating depending on the credit score
+To illustrate this mechanism, let's set up a credit score depending on the credit rating
 
 
 ```js
