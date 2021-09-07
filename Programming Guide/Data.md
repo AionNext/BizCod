@@ -32,7 +32,7 @@ By definition, a data element stores a value and its value is always known regar
 In BizCod, facts are defined by the keyword `fact`.
 
 ```js
-    fact creditScore Text
+    fact creditScore Number
 ```
 
 here, the fact **creditScore** is of type `Text` and its defaut value is `UNKNWOWN`.
