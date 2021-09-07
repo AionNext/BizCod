@@ -12,5 +12,5 @@ Dictionaries typically support different operations:
 
 - retrieve a value (depending on language, attempting to retrieve a missing key may give a default value or throw an exception)
 - insert or update a value (typically, if the key does not exist in the dictionary, the key-value pair is inserted; if the key already exists, its corresponding value is overwritten with the new one)
-remove a key-value pair
-test for existence of a key
+- remove a key-value pair
+- test for existence of a key
