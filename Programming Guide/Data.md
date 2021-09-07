@@ -1,16 +1,16 @@
-
+(MEP 9/7/21)
 
 # BizCod Data
 
 
 
-A data element (datum) is a container that holds (stores) a value. This value can take different form. This data form (or representation) is called a type or more specifically a data type. Furthermore, each data element has its associated name and type.
+A data element (datum) is a container that holds (stores) a value. This value can take different forms. This data form (or representation) is called a type or more specifically a data type. Furthermore, each data element has its associated name and type.
 
-For example, data element can store text, number or date. 
+For example, data elements can store text, numbers or dates. 
 
 ## Primitive data types
 
-As mentioned previously, the data properties are typed to represent different forms of data. To begin with and create a basic data type foundation, BizCod provides data types the are 'internally' defined. These internal types are called primitive types. The following table provides the basic primitive data types: 
+As mentioned previously, the data properties are typed to represent different forms of data. To begin with and create a basic data type foundation, BizCod provides data types that are 'internally' defined. These internal types are called primitive types. The following table provides the basic primitive data types: 
 
 | primitive data type                           | description   |
 |--------------------------------|------------------------------------------------------------------------|
@@ -23,6 +23,7 @@ As mentioned previously, the data properties are typed to represent different fo
 
 Note that this table provides a partial list of data types only. 
 
+(MEP: any thought to having a data type that is a collection of one or more other objects? Either physically embedded or referenced))
 ## Facts
 
 By definition, a data element stores a value and its value is always known regardless of what it is. In BizCod, it means that its `knowability factor` is always `KNOWN`. While this is always true for regular data elements, it is not always true for special BizCod data elements called `facts`. Facts are data elements but they might or might not hold a value. Its knowability factor is either `KNOWN` or `UNKNOWN`. There is a compelling reason behind this feature that applies specifically to Knowledge elements that we will explain later.
@@ -83,14 +84,14 @@ define model InterestAccount is Account
 ;
 ```
 
-In addition, BizCod supports multiple inreritance so it is possible that one data model inherits properties from many data models. Here is an example
+In addition, BizCod supports multiple inheritance so it is possible that one data model inherits properties from many data models. Here is an example
 
 ```js
-define model SavingsAccount is Account, InterestAccount
+define model SavingsAccount is Account, InterestAccount   
     calcPeriod Text
 ;
 ```
-
+(MEP: In this case InterestAccount is already inheriting from Account - maybe an example inheriting from two disjoint classes? )
 `SavingsAccount` inherits properties from `Account` and `InterestAccount` data models. Here is how this data models would look like fully defined
 
 ```js
@@ -132,7 +133,7 @@ define
 ;
 ```
 
-When BizCod processes data model defintions that define inheritance it attempts to resolve the inheritance. What it means is that it applies multpiple inheritance consitency rules in order to resolve data model inheritance. When these rules fail, it generates an error and invalidates the entire program.
+When BizCod processes data model defintions that define inheritance it attempts to resolve the inheritance. What it means is that it applies multiple inheritance consistency rules in order to resolve data model inheritance. When these rules fail, it generates an error and invalidates the entire program.
 
 The followig definition would not be able to resolve because the property `id` is defined with different data types (ID in Account and Number in InterestAccount) in the parent classes:
 
@@ -144,17 +145,30 @@ define model SavingsAccount is Account, InterestAccount
 
 This definition is invalid and BizCod will not be able to resolve it.
 
+(MEP: How about including both with a message indicating the conflict? Maybe also the source(s) of the data element  - sometimes it can be hard to figure out where all the data elements are coming from when you need to make a change to one of them. Maybe an option to expand or contract the definition as needed to local only or inherited)
+
+```js
+define 
+model SavingsAccount inherits from Account, InterestAccount
+        id ID,                  inherited from Account                  Multiple inheritance conflict 
+        id Number,              inherited from InterestAccount          Multiple inheritance conflict 
+        name Text,              inherited from Account, InterestAccount
+        accountType Text,       inherited from Account, InterestAccount
+        interestRate Decimal    inherited from InterestAccount
+        calcPeriod Text         defined here
+        ;
+```
 
 # Methods
 
-While data models define data structures and provide the information about the business objects, they alone do not provide any means to manipuate (process) its content. A method is simply a function that provides means to process the data model structures and are attached to the data model
+While data models define data structures and provide the information about the business objects, they alone do not provide any means to manipulate (process) its content. A method is simply a function that provides means to process the data model structures and are attached to the data model
 
 Since it is a separate topic, refer to [method](Method.md) for more information about data model methods.
 
 
 # Data domain
 
-once the data models are defined they can be grouped into coherent set of data models called object domain. A domain is a collection of data models that provide another form of abstraction to operate at the data model groups and capture the dependencies between the data models. Here are the building block of data domains
+once the data models are defined they can be grouped into coherent set of data models called object domains. A domain is a collection of data models that provide another form of abstraction to operate at the data model groups and capture the dependencies between the data models. Here are the building block of data domains
 
 | element                           | description   |
 |--------------------------------|------------------------------------------------------------------------|
@@ -167,10 +181,10 @@ once the data models are defined they can be grouped into coherent set of data m
 
 ```js
     define domain BankingDomain {
-        Account, CommerciaAccount, InvestmentAccount, Branch
+        Account, CommercialAccount, InvestmentAccount, Branch
 }
 ```
-
+(MEP: So does this mean we can refer to BankingDomain.Account  and, say, Amazon.Account with quite different definitions?)
 
 ```js
     define arrow <name>(<args>):A->B     
@@ -186,6 +200,7 @@ once the data models are defined they can be grouped into coherent set of data m
         asdsadsadsad, 
         asdasdsad Text
 ```
+
 
 ```js
     define diagram <name>(<args>) { asdcxasdsadsad, asdasdsa, asdsadsad, asdasdasdsa }
