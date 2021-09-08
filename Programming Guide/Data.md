@@ -24,6 +24,7 @@ As mentioned previously, the data properties are typed to represent different fo
 Note that this table provides a partial list of data types only. 
 
 (MEP: any thought to having a data type that is a collection of one or more other objects? Either physically embedded or referenced))
+(MS: yes, these are Abstarct Data Types )
 ## Facts
 
 By definition, a data element stores a value and its value is always known regardless of what it is. In BizCod, it means that its `knowability factor` is always `KNOWN`. While this is always true for regular data elements, it is not always true for special BizCod data elements called `facts`. Facts are data elements but they might or might not hold a value. Its knowability factor is either `KNOWN` or `UNKNOWN`. There is a compelling reason behind this feature that applies specifically to Knowledge elements that we will explain later.
