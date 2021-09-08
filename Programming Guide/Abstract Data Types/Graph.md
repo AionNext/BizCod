@@ -13,7 +13,7 @@ Here is a formal definition of Graph Data Type
 A graph data structure may also associate to each edge some edge value, such as a symbolic label or a numeric attribute (cost, capacity, length, etc.).
 The graph abstract data type (ADT) is defined as follows:
 
-- Graph() creates a new, empty graph.
+- **Graph() creates a new, empty graph.
 - addVertex(vert) adds an instance of Vertex to the graph.
 - addEdge(fromVert, toVert) Adds a new, directed edge to the graph that connects two vertices.
 - addEdge(fromVert, toVert, weight) Adds a new, weighted, directed edge to the graph that connects two vertices.
