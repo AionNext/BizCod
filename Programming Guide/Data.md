@@ -24,7 +24,8 @@ As mentioned previously, the data properties are typed to represent different fo
 Note that this table provides a partial list of data types only. 
 
 (MEP: any thought to having a data type that is a collection of one or more other objects? Either physically embedded or referenced))
-(MS: yes, these are Abstarct Data Types )
+
+(MS: yes, these are Abstarct Data Types such as List and Sets but more on this later)
 ## Facts
 
 By definition, a data element stores a value and its value is always known regardless of what it is. In BizCod, it means that its `knowability factor` is always `KNOWN`. While this is always true for regular data elements, it is not always true for special BizCod data elements called `facts`. Facts are data elements but they might or might not hold a value. Its knowability factor is either `KNOWN` or `UNKNOWN`. There is a compelling reason behind this feature that applies specifically to Knowledge elements that we will explain later.
@@ -148,6 +149,8 @@ This definition is invalid and BizCod will not be able to resolve it.
 
 (MEP: How about including both with a message indicating the conflict? Maybe also the source(s) of the data element  - sometimes it can be hard to figure out where all the data elements are coming from when you need to make a change to one of them. Maybe an option to expand or contract the definition as needed to local only or inherited)
 
+(MS: this is what application analytics will report when the app is procesed by the compiler)
+
 ```js
 define 
 model SavingsAccount inherits from Account, InterestAccount
@@ -186,6 +189,8 @@ once the data models are defined they can be grouped into coherent set of data m
 }
 ```
 (MEP: So does this mean we can refer to BankingDomain.Account  and, say, Amazon.Account with quite different definitions?)
+
+(MS: this is still work in progress and I would need to lay down the foundation first. WE will address it when it is propely defined. But yes, Domains might be instantiated as well just like classes)
 
 ```js
     define arrow <name>(<args>):A->B     
