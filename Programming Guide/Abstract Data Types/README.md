@@ -2,12 +2,12 @@
 
 Abstract data Types (ADT) prvides convenient way to deal with specific data structures that 
 
-- Stack
-- Queue
-- Tree
-- [Graph](#GRAPH.md)
-- List
-- Set
-- Dictionary
+* Stack
+* Queue
+* Tree
+* [Graph](#GRAPH.md)
+* List
+* Set
+* Dictionary
 
 
