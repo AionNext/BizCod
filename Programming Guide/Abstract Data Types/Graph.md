@@ -49,8 +49,7 @@ Here are definitions for Vertex and Edge data models
         vertices (Person)*
         edges (Friendship)*
         
-    define model Person is Vertex
-        name Text
+    define model Person is Vertex        
         
     Mike = Person::create(name='Mike')  
     Mary = Person::create(name='Mary') 
