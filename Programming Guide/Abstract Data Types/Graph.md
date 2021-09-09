@@ -23,7 +23,7 @@ where a type GraphType is defined
 
 By default, Graph is undirected.
 
-Here are definitions for Vertex and Edge data models
+Here are the definitions for `Vertex` and `Edge` data models:
 
 ```js
      define 
