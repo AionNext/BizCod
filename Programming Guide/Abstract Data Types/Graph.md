@@ -58,7 +58,7 @@ The graph abstract data type (ADT) is defined as follows:
 
 >MEP: What other functions might we have for doing interesting things with a graph?
 >
->MS we will implement basic (typical) functionalities here such as graph traversals, spanning tree, searches and so on.
+>MS we will implement basic (typical) functionalities here such as graph traversals, spanning tree, searches and so on. I will provide a full list of basic algorithms implemented for this type
 >
 >MEP: For example finding a spanning graph, or the shortest path between two vertices
 >MEP: Or would we simply leave users to develop their own algorithms for these
