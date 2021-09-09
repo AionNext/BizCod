@@ -21,6 +21,8 @@ where a type GraphType is defined
 
 **Directed** graphs have edges with direction. The edges indicate a one-way relationship, in that each edge can only be traversed in a single direction.
 
+By default, Graph is undirected.
+
 Here are definitions for Vertex and Edge data models
 
 ```js
