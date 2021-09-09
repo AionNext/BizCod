@@ -2,14 +2,14 @@
 
 Distributed Data Types (DDT) provide convenient way to deal with specific data structures that are available in a distributed environments 
 
-* Map
-* Multimap
-* Stack
-* Queue
-* Ringbuffer
-* Graph
-* List
-* Set
+* DMap
+* DMultimap
+* DStack
+* DQueue
+* DRingbuffer
+* DGraph
+* DList
+* DSet
 
 
 Topic
