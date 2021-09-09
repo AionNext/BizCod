@@ -21,6 +21,21 @@ where a type GraphType is defined
 
 **Directed** graphs have edges with direction. The edges indicate a one-way relationship, in that each edge can only be traversed in a single direction.
 
+Here are definitions for Vertex and Edge data models
+
+```js
+     define 
+           model Vertex 
+               id ID,
+               name.
+               
+           model Edge
+               source Vertex, 
+               target Vertex,
+               weight Decimal
+               
+```
+
 
 >MEP: So could the vertices be instances of various classes? Would they have to be all the same class or could they be arbitrary?
 >
