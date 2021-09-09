@@ -94,7 +94,7 @@ The graph abstract data type (ADT) is defined as follows:
 
 >MEP: Would we be able to do something like this?
 >
->MS: yes, this is possible but you would need to find an edge by either its id or source/target pair. Here is a modfied version.It assumess that there is an edge (Friendship) bertween the vertices Mike and Marek.
+>MS: yes, this is possible but you would need to find an edge by either its id or source/target pair. Here is a modfied version assuming that there is an edge (Friendship) bertween the vertices Mike and Marek.
 >
 
 
