@@ -45,16 +45,16 @@ Here are definitions for Vertex and Edge data models
 
 >MS: yes, it is correct. Vertex is a abstract class so any class that inherits from Vertex might be used
 ```js
-    define model Facebook 
+    define model Facebook is Graph
         vertices (Person)*
         edges (Friendship)*
         
     define model Person is Vertex
         name Text
         
-    Mike=Person::create(name='Mike')  
-    Mary=Person::create(name='Mary') 
-    G=Facebook()
+    Mike = Person::create(name='Mike')  
+    Mary = Person::create(name='Mary') 
+    G = Facebook::create()
     G.addVertex(Mike)
     G.addVertex(Mary)
     G.addEdge(Mike,Mary,10)
