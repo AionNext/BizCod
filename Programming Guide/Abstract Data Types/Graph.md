@@ -119,3 +119,11 @@ The graph abstract data type (ADT) is defined as follows:
 >MEP: When we add a vertex how are we defining/specifying its name?
 >
 >MS: Vertex has both id and name.
+
+## Graph Alogorithms
+
+ **Breadth-first search**
+ 
+ 
+Traversing or searching is one of the fundamental operations which can be performed on graphs. In breadth-first search (BFS), we start at a particular vertex and explore all of its neighbours at the present depth before moving on to the vertices in the next level.
+
