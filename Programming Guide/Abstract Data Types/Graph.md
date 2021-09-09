@@ -45,7 +45,7 @@ Here are definitions for Vertex and Edge data models
 >
 >MEP: Here's what I'm thinking (not sure if my syntax is correct):
 
->MS: yes, it is correct. Vertex is a abstract class so any class that inherits from Vertex might be used
+>MS: yes, it is correct. Vertex is an abstract class so any class that inherits from Vertex might be used
 ```js
     define model Facebook is Graph
         vertices (Person)*
