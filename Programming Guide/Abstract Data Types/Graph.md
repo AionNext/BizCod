@@ -117,3 +117,5 @@ The graph abstract data type (ADT) is defined as follows:
 >MS : no, just once. Graph is either directed or undirected.
 >
 >MEP: When we add a vertex how are we defining/specifying its name?
+>
+>MS: Vertex has both id and name.
