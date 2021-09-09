@@ -32,6 +32,8 @@ Here are definitions for Vertex and Edge data models
                name.
                
            model Edge
+               id Id,
+               name,
                source Vertex, 
                target Vertex,
                weight Decimal
@@ -68,7 +70,8 @@ The graph abstract data type (ADT) is defined as follows:
 - **addVertex(vert)** adds an instance of Vertex to the graph.
 - **addEdge(source, target)** Adds a new, directed edge to the graph that connects two vertices.
 - **addEdge(source, target, weight)** Adds a new, weighted, directed edge to the graph that connects two vertices.
-- **getVertex(vertKey)** finds the vertex in the graph named vertKey.
+- **getVertex(id)** finds the vertex in the graph by its id.
+- **getVertex(source, target)** finds the vertex in the graph by sourec/target pair.
 - **getVertices()** returns the list of all vertices in the graph.
 - **in** returns True for a statement of the form vertex in graph, if the given vertex is in the graph, False otherwise.
 
@@ -83,7 +86,7 @@ The graph abstract data type (ADT) is defined as follows:
 >
 >MEP: If the `Friendship` edge was defined like this
 ```js
-    define model Friendship 
+    define model Friendship is Edge
         dateStarted Date
         dateEnded Date
         duration Number
@@ -91,12 +94,12 @@ The graph abstract data type (ADT) is defined as follows:
 
 >MEP: Would we be able to do something like this?
 >
->MS: yes, this is possible
+>MS: yes, this is possible but you would need to find an edge by either its id or source/target pair. Here is a modfied version.
 >
 
 
 ```js
-    G.getVertex(Mike.name).dateStarted=currentDate
+    G.getVertex(Mike, Marek).dateStarted=currentDate
 ```
 
 >MEP: There is a type for date. Is there also a type for time?
