@@ -1,6 +1,6 @@
 # Distributed Data Types 
 
-Distributed Data Types (DDT) provide convenient way to deal with specific data structures that are available in a distributed environments 
+Distributed Data Types (DDT) provide convenient way to deal with specific data structures that are available in distributed environments 
 
 * DMap
 * DMultimap
