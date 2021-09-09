@@ -17,9 +17,9 @@ where a type GraphType is defined
     define type GraphType = { DIRECTED, UNDIRECTED }
 ```
 
-**Undirected** graphs have edges that do not have a direction. The edges indicate a two-way relationship, in that each edge can be traversed in both directions. This figure shows a simple undirected graph with three nodes and three edges.
+**Undirected** graphs have edges that do not have a direction. The edges indicate a two-way relationship, in that each edge can be traversed in both directions. 
 
-**Directed** graphs have edges with direction. The edges indicate a one-way relationship, in that each edge can only be traversed in a single direction. This figure shows a simple directed graph with three nodes and two edges.
+**Directed** graphs have edges with direction. The edges indicate a one-way relationship, in that each edge can only be traversed in a single direction.
 
 
 >MEP: So could the vertices be instances of various classes? Would they have to be all the same class or could they be arbitrary?
