@@ -70,9 +70,11 @@ The graph abstract data type (ADT) is defined as follows:
 - **addVertex(vert)** adds an instance of Vertex to the graph.
 - **addEdge(source, target)** Adds a new, directed edge to the graph that connects two vertices.
 - **addEdge(source, target, weight)** Adds a new, weighted, directed edge to the graph that connects two vertices.
-- **getVertex(id)** finds the vertex in the graph by its id.
-- **getVertex(source, target)** finds the vertex in the graph by sourec/target pair.
+- **getVertex(vert)** finds the vertex in the graph by its id or name
+- **getEdge(id)** finds the edge in the graph by id.
+- **getEdge(source, target)** finds the edge in the graph by source/target pair.
 - **getVertices()** returns the list of all vertices in the graph.
+- **getEdges()** returns the list of all edges in the graph.
 - **in** returns True for a statement of the form vertex in graph, if the given vertex is in the graph, False otherwise.
 
 >MEP: What other functions might we have for doing interesting things with a graph?
@@ -99,7 +101,7 @@ The graph abstract data type (ADT) is defined as follows:
 
 
 ```js
-    G.getVertex(Mike, Marek).dateStarted=currentDate
+    G.getEdge(Mike, Marek).dateStarted=currentDate
 ```
 
 >MEP: There is a type for date. Is there also a type for time?
