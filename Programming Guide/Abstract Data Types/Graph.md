@@ -6,9 +6,21 @@ Here is a formal definition of Graph Data Type
 
 ```js
     define model <graph-name> 
-        vertices (Vertex)*
-        edges (Edge)*
+        vertices (Vertex)*,
+        edges (Edge)*,
+        type GraphType
 ```
+
+where a type GraphType is defined 
+
+```js
+    define type GraphType = { DIRECTED, UNDIRECTED }
+```
+
+**Undirected** graphs have edges that do not have a direction. The edges indicate a two-way relationship, in that each edge can be traversed in both directions. This figure shows a simple undirected graph with three nodes and three edges.
+
+**Directed** graphs have edges with direction. The edges indicate a one-way relationship, in that each edge can only be traversed in a single direction. This figure shows a simple directed graph with three nodes and two edges.
+
 
 >MEP: So could the vertices be instances of various classes? Would they have to be all the same class or could they be arbitrary?
 >
@@ -80,6 +92,7 @@ The graph abstract data type (ADT) is defined as follows:
 >MS: yes, in this case the Graph would need to inherit from Vertex
 >
 >MEP: How would I add an edge that is `not` directed? Would I have to add it twice in each direction?
->MS : no, just once
+>
+>MS : no, just once. Graph is either directed or undirected.
 >
 >MEP: When we add a vertex how are we defining/specifying its name?
