@@ -1,6 +1,6 @@
 # Distributed Data Types 
 
-Abstract data Types (DDT) prvides convenient way to deal with specific data structures that 
+Distributed Data Types (DDT) prvides convenient way to deal with specific data structures that are available in a distributed environments 
 
 * Map
 * Multimap
