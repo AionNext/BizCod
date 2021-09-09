@@ -131,3 +131,8 @@ Traversing or searching is one of the fundamental operations which can be perfor
 
 In depth-first search (DFS) we start from a particular vertex and explore as far as possible along each branch before retracing back (backtracking). In DFS also we have to keep track of the visited vertices. When implementing DFS, we use a stack data structure to support backtracking.
 
+**Topological sorting**
+
+
+Topological sorting of a graph is a linear ordering of its vertices so that for each directed edge (u, v) in the ordering, vertex u comes before v.
+
