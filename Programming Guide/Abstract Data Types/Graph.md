@@ -29,7 +29,7 @@ Here are the definitions for `Vertex` and `Edge` data models:
      define 
            model Vertex 
                id ID,
-               name.
+               name
                
            model Edge
                id Id,
