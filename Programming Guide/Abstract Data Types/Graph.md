@@ -25,8 +25,8 @@ Here is a formal definition of Graph Data Type
     define model Person is Vertex
         name Text
         
-    Mike=Person.create(name='Mike')  
-    Mary=Person.create(name='Mary') 
+    Mike=Person::create(name='Mike')  
+    Mary=Person::create(name='Mary') 
     G=Facebook()
     G.addVertex(Mike)
     G.addVertex(Mary)
