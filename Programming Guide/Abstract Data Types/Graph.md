@@ -120,10 +120,14 @@ The graph abstract data type (ADT) is defined as follows:
 >
 >MS: Vertex has both id and name.
 
-## Graph Alogorithms
+## Graph Algorithms
 
  **Breadth-first search**
  
  
 Traversing or searching is one of the fundamental operations which can be performed on graphs. In breadth-first search (BFS), we start at a particular vertex and explore all of its neighbours at the present depth before moving on to the vertices in the next level.
+
+**Depth-first search**
+
+In depth-first search (DFS) we start from a particular vertex and explore as far as possible along each branch before retracing back (backtracking). In DFS also we have to keep track of the visited vertices. When implementing DFS, we use a stack data structure to support backtracking.
 
