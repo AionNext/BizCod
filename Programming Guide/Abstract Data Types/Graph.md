@@ -46,7 +46,7 @@ The graph abstract data type (ADT) is defined as follows:
 
 >MEP: What other functions might we have for doing interesting things with a graph?
 >
->MS we will implement basic (typical) functionalities here such as graph traversals,  path and so on.
+>MS we will implement basic (typical) functionalities here such as graph traversals, spanning tree, searches and so on.
 >
 >MEP: For example finding a spanning graph, or the shortest path between two vertices
 >MEP: Or would we simply leave users to develop their own algorithms for these
@@ -56,20 +56,28 @@ The graph abstract data type (ADT) is defined as follows:
 >MEP: If the `Friendship` edge was defined like this
 ```js
     define model Friendship 
-        dateStarted date
-        dateEnded date
-        duration number
+        dateStarted Date
+        dateEnded Date
+        duration Number
 ```
 
 >MEP: Would we be able to do something like this?
+>
+>MS: yes, this is possible
+>
+
+
 ```js
     G.getVertex(Mike.name).dateStarted=currentDate
 ```
 
 >MEP: There is a type for date. Is there also a type for time?
+>
 >MS : yes, Date and Time are separate types.
 >
 >MEP: I suppose we could even define the vertices of a graph to be `graphs` (essentially subgraphs)
+>
+>MS: yes, in this case the Graph would need to inherit from Vertex
 >
 >MEP: How would I add an edge that is `not` directed? Would I have to add it twice in each direction?
 >MS : no, just once
