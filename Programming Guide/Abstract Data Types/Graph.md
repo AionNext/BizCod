@@ -136,3 +136,5 @@ In depth-first search (DFS) we start from a particular vertex and explore as far
 
 Topological sorting of a graph is a linear ordering of its vertices so that for each directed edge (u, v) in the ordering, vertex u comes before v.
 
+**Kruskal algorithm to find the minimum spanning tree of a weighted graph**
+
