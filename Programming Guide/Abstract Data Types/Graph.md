@@ -45,10 +45,13 @@ The graph abstract data type (ADT) is defined as follows:
 - it returns True for a statement of the form vertex in graph, if the given vertex is in the graph, False otherwise.
 
 >MEP: What other functions might we have for doing interesting things with a graph?
+>
 >MS we will implement basic (typical) functionalities here such as graph traversals,  path and so on.
+>
 >MEP: For example finding a spanning graph, or the shortest path between two vertices
 >MEP: Or would we simply leave users to develop their own algorithms for these
->NS: if need be, the user can add methods (functional expansion) to Graph data type just like any other data type. 
+>
+>MS: if need be, the user can add methods (functional expansion) to Graph data type just like any other data type. 
 >
 >MEP: If the `Friendship` edge was defined like this
 ```js
