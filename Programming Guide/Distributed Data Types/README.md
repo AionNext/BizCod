@@ -6,7 +6,7 @@ Distributed Data Types (DDT) provide convenient way to deal with specific data s
 * Multimap
 * Stack
 * Queue
-* Rinbuffer
+* Ringbuffer
 * Graph
 * List
 * Set
