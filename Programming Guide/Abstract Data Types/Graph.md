@@ -23,7 +23,7 @@ Here is a formal definition of Graph Data Type
         edges (Friendship)*
         
     define model Person is Vertex
-        name text
+        name Text
         
     Mike=Person.create(name='Mike')  
     Mary=Person.create(name='Mary') 
