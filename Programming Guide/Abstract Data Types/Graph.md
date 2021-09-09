@@ -15,13 +15,16 @@ Here is a formal definition of Graph Data Type
 >MEP: I guess if the vertices were an `Interface` class then you could use any class that implements the interface.
 >
 >MEP: Here's what I'm thinking (not sure if my syntax is correct):
->
+
+>MS: yes, it is correct. Vertex is a abstract class so any class that inherits from Vertex might be used
 ```js
     define model Facebook 
         vertices (Person)*
         edges (Friendship)*
-    define model Person
+        
+    define model Person is Vertex
         name text
+        
     Mike=Person.create(name='Mike')  
     Mary=Person.create(name='Mary') 
     G=Facebook()
