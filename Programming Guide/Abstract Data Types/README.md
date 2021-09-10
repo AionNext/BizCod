@@ -33,3 +33,6 @@ queues;
 priority queues;
 double-ended queues;
 double-ended priority queues.
+
+
+>MS: yes, the intent is to implement all ADT
