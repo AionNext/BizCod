@@ -33,4 +33,4 @@ When the body is not provided, the function is `abstract`. Similar to data model
 
 This function does not define the body and, therefore, it is abstract. Abstract functions cannot be executed becuse they do not have the body of processing. What is the purpose of body-less functions?
 
-BizCod is essentially a conceptual language. The entire programming process should takes place at the abtraction level. Once the program has been designed (abstraction) it is then brought down to the implemenattion (concrete) level. This paradigm is called abstract concretization.
+BizCod is essentially a conceptual language. The entire programming process should takes place at the abtraction level. Once the program has been designed (abstraction) it is then brought down to the implemenattion (concrete) level. This paradigm is called abstraction concretization.
