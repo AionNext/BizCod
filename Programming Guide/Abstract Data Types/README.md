@@ -14,7 +14,7 @@ Abstract Data Types (ADT) provide a convenient way to deal with specific data st
 >
 >MEP: For the `List` data type are you thinking there might be some built in functions that apply specifically to list data (eg based on LISP?
 >
->MS: can you come up with a lst of functionalities you would like to implement. I don't see any problems.
+>MS: can you come up with a lst of functionalities you would like to implement?
 >
 **Graph**
 In a graph, data items have associations with one or more other data items in the collection and are somewhat like trees without the concept of a root or a parent-child relationship so that all data items are peers. Examples of operations on graphs are traversals and searches which explore the associations of data items looking for some specific property.  An example is the Spanning tree protocol, which creates a graph (or mesh) representation of a data network and figures out which associations between switching nodes need to be broken to turn it into a tree and thus prevent data going around in loops.
