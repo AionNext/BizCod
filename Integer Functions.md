@@ -2,8 +2,8 @@
 Function|Example
 -|-
 `+ - * / ** = += -= *= < <= > >= <>`|
-.absVal|
-.div(divisor)|
+.absVal|`-42.absVal` returns 42
+.div(divisor)|`42.div(5)` returns 8
 .gcd(integer)|
 .in int1...int2|
 .ln|
