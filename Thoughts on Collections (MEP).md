@@ -2,7 +2,7 @@
 
 I created this list of operations on collections from the point of view of what business functions a person might want to perform.
 I've also included some samples of what the syntax might look like. 
-Do you think this is worth pursuing? 
+Do you think this is worth pursuing? :smiley:
 Mike
 
 ## Operations on Collections
@@ -82,16 +82,20 @@ size, iterator(), add() or +=, remove() or -=, clear
 ## Multiple Collection operators (collections of different type but implementing a common interface)
  Operation|Example
   -|-
-->merge      |     `transportation=cars->merge(boats)->merge(planes)`
-
+->merge      |     `transportation=cars->merge(boats)->merge(planes)` or `transportation=cars+boats+planes`
+.            |     `transportation=cars[seats>4,insured=True]->merge(boats[type='hovercraft',seaworthy=True])->merge(planes[age<5])` 
+  
 ## Attribute specific operators:
    Operation|Example
   -|-
 ->max
 ->min
 ->avg
-->allContain(<string>)
-->uniqueCount(<string>)
+->allContain(<string>)|`Person[age>65].gender->allContain('male')` equivalent to `Person->forAll(age>65,gender='male')`
+->uniqueCount(<string>)|`Person[age in 18..65].gender.uniqueCount`
 
 ## Filters (produce subsets of a collection)
 [list of any valid expression involving attributes of the collection that evaluates to boolean]
+  Person[age>65] just those instances where age >65
+  Person is equivalent to Person[] and Person[*] meaning every instance of the ckass
+  Person[n] any n arbitrary instances (can't think why we'd need this yet)
