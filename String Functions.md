@@ -1,4 +1,4 @@
-#String Functions
+# String Functions
 
 Function|Example
 -|-
@@ -21,7 +21,7 @@ Function|Example
  .endsWith(string)|`' THE CAT SAT ON THE MAT'.endsWith('AT')` returns true
  .equals(string)|`'THE CAT SAT ON THE MAT'.equals('THe CAT SAT ON THE MAT')` returns false
  .equalsIgnoreCase(string)|`'THE CAT SAT ON THE MAT'.equalsIgnoreCase('THe CAT SAT ON THE MAT')` returns true
- .in string1..string2|`'CAR'.in 'CAB'...'CAT' returns true
+ .in string1..string2|`'CAR'.in 'CAB'...'CAT'` returns true
  .indexOf(substring)|`'THE CAT SAT ON THE MAT'.index of('THE')` returns 1
  .isInteger|`'42'.isInteger` returns true
  .distance(string)|`'https://www.wellsfargo.com/'.distance('https://www.wellsforgo.com/')` returns 1. Number of edits to convert. Used in fraud detection. Uses Levenstein
@@ -30,11 +30,14 @@ Function|Example
  .regexReplace(regex,string)|anything that matches regex is replaced with string. Returns number of replacements
  .replace(stringToBeReplaced,replacementString|returns number of replacements
  .size|
- .soundex|Numeric value representing the phonetic sound of the string
+ .soundex|`'Robert'.soundex = 'Rupert'.soundex'` returns true. Numeric value representing the phonetic sound of the string. 'R163' in this example
  .startsWith(string)|
- .toDateTime|
- .toDecimal|
- .toInteger|
- .toLower|
- .toUpper|
+ .toDateTime|returns null if the string cannot be converted; otherwise returns the datetime
+ .toDecimal|returns null if the string cannot be converted; otherwise returns the decimal value
+ .toInteger|returns null if the string cannot be converted; otherwise returns the integer value
+ .toLower|`'THE CAT SAT ON THE MAT'.toLower` returns 'the cat sat on the mat'
+ .toUpper|`'the cat sat on the mat'.toUpper` returns 'THE CAT SAT ON THE MAT'
  .trimSpaces|returns number of spaces removed
+
+Note: Any string literal in the examples may be replaced with any expression that evaluates to a string. Even a complex one involving collections.
+For example
