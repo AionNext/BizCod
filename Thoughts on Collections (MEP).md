@@ -96,6 +96,9 @@ size, iterator(), add() or +=, remove() or -=, clear
 
 ## Filters (produce subsets of a collection)
 [list of any valid expression involving attributes of the collection that evaluates to boolean]
+  
   Person[age>65] just those instances where age >65
   Person is equivalent to Person[] and Person[*] meaning every instance of the ckass
   Person[n] any n arbitrary instances (can't think why we'd need this yet)
+  
+  Person[age>65,gender='male'] allows the filters to be applied in any order (perhaps even in parallel) and is equivalent to Person[age>65][gender='male'] which requires the age filter to be applied first and then the gender filter is applied to the results. Not sure if it makes a huge difference
