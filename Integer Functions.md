@@ -4,12 +4,13 @@ Function|Example
 `+ - * / ** = += -= *= < <= > >= <>`|
 .absVal|`-42.absVal` returns 42
 .div(divisor)|`42.div(5)` returns 8
-.gcd(integer)|
-.in int1...int2|
+.gcd(integer)|`42.gcd(18)` returns 6
+in int1...int2|`42 in 36...73` returns true. example usage: `person.age in limit.lower ... limit.upper`
 .ln|
 .isPrime|
 .isProbablyPrime|
 .factorial|
+.factors| would need to return a collection of integers
 .log|
 .log(base)|
 .max(integer)|
