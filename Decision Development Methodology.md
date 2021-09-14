@@ -56,7 +56,7 @@ Sometimes the rules may be in multiple rule groups that are mutually exclusive.
 To ensure conflict free rules these should be set up in a branching rule flow.
 
 ## Enter all of the English rule statements that apply to each rule group. 
-Initially these will be plain English statements. 
+Initially these will be plain English statements. And should be independent of whether they may later be modeled as rules or decision tables.
 Later you may find it helpful to supplement these with actual values that occur during execution. 
 If the source of the rules is actual code then you can also copy that into the rule statements as a reference.
 
@@ -102,3 +102,9 @@ At this point you are more concerned with the interaction of the rule sheets tha
 If the ruleflow is particularly complex it can be helpful to develop additional rule groups whose purpose is to provide a cross check on the other rule groups. 
 One example of this is a rulesheet that cross checks totals of records processed. 
 Another example is rule groups that check to make sure that all rules have been tested by at least one test case.
+
+
+## MEP Thoughts
+-My personal preference would be to make the DECISION TABLE the primary means of representing related rules - supplemented with the ability to make function calls and backward chain to source any unknown variables - in theory the inference engine should be able to take any set of rules or decision tables and figure out the interdependencies between them for forward or backward chaining.
+-We should accommodate the DMN standard - i.e. be able to import a DMN definition and be able to export a DMN definition in order to support the ability to exchange rule sets but I don't think its necessary to slavishly adhere to the standard. Particularly as I expect we will exceed its functionality anyway.
+-Currently the DMN standard has no provision to accommodate the processing of collections of hierarchical data in a decision table. Its expecting that some other procedural code will take care of that.  Our decision tables should be capable of processing complex hierarchical data structures without resorting to traditional programming mechanisms (such as loops)
