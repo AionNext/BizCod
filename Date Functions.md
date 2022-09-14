@@ -2,10 +2,10 @@
 
 Function|Example
 -|-
-.addDays|
-.addBusinessDays(country)|
-.addMonths|
-.addYears|
+.addDays(n)|
+.addBusinessDays(n,country)|
+.addMonths(n)|
+.addYears(n)|
 .day|
 .dayOfWeek|Sunday=1
 .dayOfYear|
