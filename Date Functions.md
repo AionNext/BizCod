@@ -4,7 +4,7 @@ Function|Example
 -|-
 .addDays(n)|
 .addBusinessDays(n,country)|
-.addMonths(n)|deliveryDate=person.conceptionDate.addMonths(9)
+.addMonths(n)|`deliveryDate=person.conceptionDate.addMonths(9)`
 .addYears(n)|
 .day|
 .dayOfWeek|Sunday=1
